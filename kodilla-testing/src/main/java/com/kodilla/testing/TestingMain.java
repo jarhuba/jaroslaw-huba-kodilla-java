@@ -1,4 +1,4 @@
-package com.codilla.testing;
+package com.kodilla.testing;
 
 public class TestingMain {
 
