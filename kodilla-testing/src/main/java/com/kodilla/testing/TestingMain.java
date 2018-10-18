@@ -16,21 +16,16 @@ public class TestingMain {
             System.out.println("Error!");
         }
 
-        Calculator calculator = new Calculator(10,4);
+        // Testing Calculator class
+        Calculator calculator = new Calculator();
 
-        int sum = calculator.getA() + calculator.getB();
-        int difference = calculator.getA() - calculator.getB();
+        int addResoult = calculator.add(180, 19);
+        int subResoult = calculator.subtract(200, 150);
 
-        if (calculator.add() == sum) {
-            System.out.println("Test OK");
+        if (addResoult == 199 && subResoult == 50) {
+            System.out.println("Calculator test OK");
         } else {
-            System.out.println("Test FAIL");
-        }
-
-        if (calculator.subtract() == difference) {
-            System.out.println("Test OK");
-        } else {
-            System.out.println("Test FAIL");
+            System.out.println("Calculator has error!");
         }
     }
 }
