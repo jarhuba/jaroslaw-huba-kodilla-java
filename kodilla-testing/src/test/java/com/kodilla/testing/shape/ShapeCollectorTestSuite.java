@@ -80,5 +80,12 @@ public class ShapeCollectorTestSuite {
         Assert.assertEquals(square, figure);
     }
 
+    @Test
+    public void testShowFigures() {
+        //Given
+        //TODO testShowFigures()
+        //When
 
+        //Than
+    }
 }

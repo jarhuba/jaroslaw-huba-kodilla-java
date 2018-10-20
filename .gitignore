@@ -33,3 +33,5 @@ src/main/java/com/kodilla/testing/shape/
 src/main/resources/
 src/test/java/com/kodilla/testing/shape/
 src/test/resources/
+kodilla-testing/src/main/resources/
+kodilla-testing/src/test/resources/
