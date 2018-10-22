@@ -3,6 +3,7 @@ package com.kodilla.testing.library;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -81,5 +82,41 @@ public class BookDirectoryTestSuite {
         // Then
         assertEquals(0, theListOfBooks10.size());
         verify(libraryDatabaseMock, times(0)).listBooksWithCondition(anyString());
+    }
+
+    @Test
+    public void testListBooksInHandsOfRent0() {
+        //Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        LibraryUser libraryUser = new LibraryUser("Jan", "Kowalski", "123");
+
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(Collections.emptyList());
+        //When
+        List<Book> rentedBooks = bookLibrary.listBooksInHandsOf(libraryUser);
+
+        //Then
+        assertEquals(0, rentedBooks.size());
+
+    }
+
+    @Test
+    public void testListBooksInHandsOfRent1() {
+        //Given
+
+        //When
+
+        //Then
+
+    }
+
+    @Test
+    public void testListBooksInHandsOfRent5() {
+        //Given
+
+        //When
+
+        //Then
+
     }
 }
