@@ -43,7 +43,7 @@ public class ForumTestSuite {
     public void testAddComment() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         //When
         forumUser.addComment(thePost, "mrsmith", "Thank you for all good words!");
         //Then
@@ -54,7 +54,7 @@ public class ForumTestSuite {
     public void testGetPost() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         forumUser.addPost(thePost.getAuthor(), thePost.getPostBody());
         //When
         ForumPost retrievedPost;
@@ -67,7 +67,7 @@ public class ForumTestSuite {
     public void testGetComment() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         ForumComment theComment = new ForumComment(thePost, "Thank you for all good words!", "mrsmith");
         forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
         //When
@@ -80,7 +80,7 @@ public class ForumTestSuite {
     public void testRemovePostNotExisting() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         //When
         boolean result = forumUser.removePost(thePost);
         //Then
@@ -91,7 +91,7 @@ public class ForumTestSuite {
     public void testRemoveCommentNotExisting() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         ForumComment theComment = new ForumComment(thePost, "Thank you for all good words!", "mrsmith");
         //When
         boolean result = forumUser.removeComment(theComment);
@@ -103,7 +103,7 @@ public class ForumTestSuite {
     public void testRemovePost() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         forumUser.addPost(thePost.getAuthor(), thePost.getPostBody());
         //When
         boolean result = forumUser.removePost(thePost);
@@ -116,7 +116,7 @@ public class ForumTestSuite {
     public void testRemoveComment() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
-        ForumPost thePost = new ForumPost("Hello everyone, " + "this is my first contribution here!", "mrsmith");
+        ForumPost thePost = new ForumPost("Hello everyone, this is my first contribution here!", "mrsmith");
         ForumComment theComment = new ForumComment(thePost, "Thank you for all good words!", "mrsmith");
         forumUser.addComment(thePost, theComment.getAuthor(), theComment.getCommentBody());
         //When
