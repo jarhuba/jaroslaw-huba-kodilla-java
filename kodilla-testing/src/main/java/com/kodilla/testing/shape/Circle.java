@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Circle implements Shape {
 
-    private final static String SHAPE_NAME = "circle";
+    private String shapeName = "circle";
     private double field;
 
     public Circle(double radius) {
@@ -13,7 +13,7 @@ public class Circle implements Shape {
 
     @Override
     public String getShapeName() {
-        return this.SHAPE_NAME;
+        return this.shapeName;
     }
 
     @Override
@@ -27,11 +27,11 @@ public class Circle implements Shape {
         if (o == null || getClass() != o.getClass()) return false;
         Circle circle = (Circle) o;
         return Double.compare(circle.field, field) == 0 &&
-                Objects.equals(SHAPE_NAME, circle.SHAPE_NAME);
+                Objects.equals(shapeName, circle.shapeName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(SHAPE_NAME, field);
+        return Objects.hash(shapeName, field);
     }
 }

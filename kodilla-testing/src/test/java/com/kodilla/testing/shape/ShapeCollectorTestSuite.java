@@ -34,7 +34,6 @@ public class ShapeCollectorTestSuite {
         Shape circle = new Circle(10);
         Shape triangle = new Triangle(10,15);
         ShapeCollector collector = new ShapeCollector();
-
         //When
         collector.addFigure(square);
         collector.addFigure(triangle);
@@ -55,13 +54,11 @@ public class ShapeCollectorTestSuite {
         collector.addFigure(square);
         collector.addFigure(triangle);
         collector.addFigure(circle);
-
         //When
         collector.removeFigure(square);
         //Then
         Assert.assertEquals(triangle, collector.getFigure(0));
         Assert.assertEquals(circle, collector.getFigure(1));
-
     }
 
     @Test
@@ -83,9 +80,17 @@ public class ShapeCollectorTestSuite {
     @Test
     public void testShowFigures() {
         //Given
-        //TODO testShowFigures()
+        Shape square = new Square(10);
+        Shape circle = new Circle(10);
+        Shape triangle = new Triangle(10,15);
+        ShapeCollector collector = new ShapeCollector();
+        collector.addFigure(square);
+        collector.addFigure(triangle);
+        collector.addFigure(circle);
         //When
-
+        String expectedMessage = "square triangle circle";
+        String message = collector.showFigures();
         //Than
+        Assert.assertEquals(expectedMessage, message);
     }
 }

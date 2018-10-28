@@ -23,9 +23,15 @@ public class ShapeCollector {
         return result;
     }
 
-    public void showFigures() {
-        for (Shape s : shapeList) {
-            System.out.println(s.getShapeName());
+    public String showFigures() {
+        String toDisplay = "";
+        for (int i = 0; i < shapeList.size(); i++) {
+            if (i == shapeList.size() - 1) {
+                toDisplay += shapeList.get(i).getShapeName();
+            } else {
+                toDisplay += shapeList.get(i).getShapeName() + " ";
+            }
         }
+        return toDisplay;
     }
 }
