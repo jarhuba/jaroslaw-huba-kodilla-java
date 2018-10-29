@@ -1,29 +1,45 @@
 package com.kodilla.testing.forum.statistics;
 
 public class ForumStatistics {
-    int averagePostsPerUser;
-    int averageCommentsPerUser;
-    int averageCommentsPerPost;
-    Statistics statistics;
+    private int averagePostsPerUser;
+    private int averageCommentsPerUser;
+    private int averageCommentsPerPost;
+    private Statistics statistics;
 
     public ForumStatistics(Statistics statistics) {
         this.statistics = statistics;
     }
 
+    public int getAveragePostsPerUser() {
+        return averagePostsPerUser;
+    }
+
+    public int getAverageCommentsPerUser() {
+        return averageCommentsPerUser;
+    }
+
+    public int getAverageCommentsPerPost() {
+        return averageCommentsPerPost;
+    }
+
+    public Statistics getStatistics() {
+        return statistics;
+    }
+
     public void calculateAdvStatistics(Statistics statistics) {
         if (statistics.usersNames().size() > 0) {
-            this.averagePostsPerUser = statistics.postCount() / statistics.usersNames().size();
+            averagePostsPerUser = statistics.postCount() / statistics.usersNames().size();
         }
         if (statistics.usersNames().size() > 0) {
-            this.averageCommentsPerUser = statistics.commentsCount() / statistics.usersNames().size();
+            averageCommentsPerUser = statistics.commentsCount() / statistics.usersNames().size();
         }
         if (statistics.postCount() > 0) {
-            this.averageCommentsPerPost = statistics.commentsCount() / statistics.postCount();
+            averageCommentsPerPost = statistics.commentsCount() / statistics.postCount();
         }
     }
 
-
-    public void showStatistics() {
-        // TODO
+    public String showStatistics() {
+        String message = "Średnia liczba postów na użytkownika to: " + averagePostsPerUser + " (" + averageCommentsPerPost + "," + averageCommentsPerUser + ")";
+        return message;
     }
 }
