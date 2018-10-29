@@ -90,33 +90,48 @@ public class BookDirectoryTestSuite {
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
         LibraryUser libraryUser = new LibraryUser("Jan", "Kowalski", "123");
-
         when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(Collections.emptyList());
+
         //When
         List<Book> rentedBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
         assertEquals(0, rentedBooks.size());
+        verify(libraryDatabaseMock, times(1)).listBooksInHandsOf(libraryUser);
 
     }
 
     @Test
     public void testListBooksInHandsOfRent1() {
         //Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        LibraryUser libraryUser = new LibraryUser("Jan", "Kowalski", "123");
+        List<Book> listBooksGenerated = generateListOfNBooks(1);
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(listBooksGenerated);
 
         //When
+        List<Book> rentedListOfBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
-
+        assertEquals(listBooksGenerated, rentedListOfBooks);
+        assertEquals(1, rentedListOfBooks.size());
     }
 
     @Test
     public void testListBooksInHandsOfRent5() {
         //Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        LibraryUser libraryUser = new LibraryUser("Jan", "Kowalski", "123");
+        List<Book> listBooksGenerated = generateListOfNBooks(5);
+        when(libraryDatabaseMock.listBooksInHandsOf(libraryUser)).thenReturn(listBooksGenerated);
 
         //When
+        List<Book> rentedListOfBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         //Then
-
+        assertEquals(listBooksGenerated, rentedListOfBooks);
+        assertEquals(5, rentedListOfBooks.size());
     }
 }
