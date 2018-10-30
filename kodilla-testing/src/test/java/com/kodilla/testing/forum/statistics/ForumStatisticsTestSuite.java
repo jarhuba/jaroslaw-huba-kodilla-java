@@ -14,6 +14,14 @@ public class ForumStatisticsTestSuite {
 
     public static int counter = 0;
 
+    private List<String> generateUsersList(int usersNumber) {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < usersNumber; i++) {
+            list.add("Kowalski " + i);
+        }
+        return list;
+    }
+
     @Before
     public void before() {
         System.out.println("Test " + counter);
@@ -25,9 +33,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<>();
-        usersList.add("John");
-        usersList.add("Nick");
+        List<String> usersList = generateUsersList(2);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(0);
         when(statisticsMock.commentsCount()).thenReturn(0);
@@ -45,9 +51,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<>();
-        usersList.add("John");
-        usersList.add("Nick");
+        List<String> usersList = generateUsersList(2);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(1000);
         when(statisticsMock.commentsCount()).thenReturn(0);
@@ -65,9 +69,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<>();
-        usersList.add("John");
-        usersList.add("Nick");
+        List<String> usersList = generateUsersList(2);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(10);
         when(statisticsMock.commentsCount()).thenReturn(0);
@@ -85,12 +87,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<String>() {
-            @Override
-            public int size() {
-                return 10;
-            }
-        };
+        List<String> usersList = generateUsersList(10);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(1000);
         when(statisticsMock.commentsCount()).thenReturn(100);
@@ -109,12 +106,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<String>() {
-            @Override
-            public int size() {
-                return 10;
-            }
-        };
+        List<String> usersList = generateUsersList(10);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(10);
         when(statisticsMock.commentsCount()).thenReturn(100);
@@ -133,7 +125,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<String>();
+        List<String> usersList = new ArrayList<>();
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(100);
         when(statisticsMock.commentsCount()).thenReturn(100);
@@ -151,12 +143,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<String>() {
-            @Override
-            public int size() {
-                return 100;
-            }
-        };
+        List<String> usersList = generateUsersList(100);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(1000);
         when(statisticsMock.commentsCount()).thenReturn(2000);
@@ -175,9 +162,7 @@ public class ForumStatisticsTestSuite {
         //Given
         Statistics statisticsMock = mock(Statistics.class);
         ForumStatistics forumStatistics = new ForumStatistics(statisticsMock);
-        List<String> usersList = new ArrayList<>();
-        usersList.add("John");
-        usersList.add("Nick");
+        List<String> usersList = generateUsersList(2);
         when(statisticsMock.usersNames()).thenReturn(usersList);
         when(statisticsMock.postCount()).thenReturn(100);
         when(statisticsMock.commentsCount()).thenReturn(1000);
