@@ -3,6 +3,7 @@ package com.kodilla.stream.forum;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public final class ForumUser {
     private final String username;
@@ -22,6 +23,20 @@ public final class ForumUser {
 
     public void removeFriend(ForumUser user) {
         friends.remove(user);
+    }
+
+    public Set<String> getLocationsOfFriends() {
+        return friends.stream()
+                .map(friend -> friend.getLocation())
+                .collect(Collectors.toSet());
+    }
+
+    public Set<String> getLocationsOfFriendsOfFriends() {
+        return friends.stream()
+                .flatMap(user -> user.getFriends().stream())
+                .filter(user -> user != this)
+                .map(ForumUser::getLocation)
+                .collect(Collectors.toSet());
     }
 
     public String getUsername() {
