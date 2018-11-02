@@ -5,11 +5,7 @@ import java.util.List;
 
 public final class Continent {
 
-    private final List<Country> continentCountries;
-
-    public Continent() {
-        continentCountries = new ArrayList<>();
-    }
+    private final List<Country> continentCountries = new ArrayList<>();
 
     public void addCountry(Country country) {
         this.continentCountries.add(country);
