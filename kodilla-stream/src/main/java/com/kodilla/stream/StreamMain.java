@@ -3,6 +3,7 @@ package com.kodilla.stream;
 import com.kodilla.stream.book.Book;
 import com.kodilla.stream.book.BookDirectory;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class StreamMain {
     public static void main(String[] args) {
