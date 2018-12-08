@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kodilla.rps.controller.MainPaneController">
    <children>
       <Label maxWidth="1.7976931348623157E308" text="Wybór gracza:" />
@@ -22,7 +21,7 @@
                         <Image url="@paper.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="papreButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Papier" />
+                  <Button fx:id="paperButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#paperClicked" text="Papier" />
                </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0">
@@ -32,7 +31,7 @@
                         <Image url="@rock.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="rockButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Kamień" />
+                  <Button fx:id="rockButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#rockClicked" text="Kamień" />
                </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0">
@@ -42,7 +41,7 @@
                         <Image url="@scissors.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="scissorsButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Nożyczki" />
+                  <Button fx:id="scissorsButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#scissorsClicked" text="Nożyczki" />
                </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0">
@@ -52,7 +51,7 @@
                         <Image url="@spock.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="spockButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Spock" />
+                  <Button fx:id="spockButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#spockClicked" text="Spock" />
                </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0">
@@ -62,7 +61,7 @@
                         <Image url="@lizard.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="lizardButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Jaszczurka" />
+                  <Button fx:id="lizardButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#lizardClicked" text="Jaszczurka" />
                </children>
             </VBox>
          </children>
@@ -82,6 +81,6 @@
          </image>
       </ImageView>
       <Label fx:id="textResult" maxWidth="1.7976931348623157E308" text="Wynik" textAlignment="CENTER" />
-      <Button fx:id="nextTurnButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Następny pojedynek" textAlignment="CENTER" />
+      <Button fx:id="nextTurnButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#nextTurnClicked" text="Następny pojedynek" textAlignment="CENTER" />
    </children>
 </VBox>

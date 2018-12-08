@@ -2,45 +2,105 @@ package com.kodilla.rps.main;
 
 public class Logic {
 
-    private String rock = "rock";
+    private String humanGesture;
+    private String computerGesture;
     private String paper = "paper";
+    private String rock = "rock";
     private String scissors = "scissors";
-    private Player player1RPC;
-    private Player player2RPC;
+    private String spock = "spock";
+    private String lizard = "lizard";
 
-    public Logic(Player player1RPC, Player player2RPC) {
-        this.player1RPC = player1RPC;
-        this.player2RPC = player2RPC;
+
+    public Logic(Human human, Computer computer) {
+        this.humanGesture = human.getRps();
+        this.computerGesture = computer.getRps();
     }
 
-    public Player matchWinner() {
-        Player winner = new Player();
-        if (player1RPC.getRps() == player2RPC.getRps()) {
+    public String resoult() {
+        String result = "";
+        if (humanGesture == computerGesture) {
+            result = "remis";
         }
-        if (player1RPC.getRps() == rock && player2RPC.getRps() == paper) {
-            player2RPC.setWinner(true);
-            winner = player2RPC;
+
+        if (humanGesture == paper && computerGesture == rock) {
+            result = "human";
         }
-        if (player1RPC.getRps() == rock && player2RPC.getRps() == scissors) {
-            player1RPC.setWinner(true);
-            winner = player1RPC;
+
+        if (humanGesture == paper && computerGesture == scissors) {
+            result = "computer";
         }
-        if (player1RPC.getRps() == paper && player2RPC.getRps() == rock) {
-            player1RPC.setWinner(true);
-            winner = player1RPC;
+
+        if (humanGesture == paper && computerGesture == spock) {
+            result = "human";
         }
-        if (player1RPC.getRps() == paper && player2RPC.getRps() == scissors) {
-            player2RPC.setWinner(true);
-            winner = player2RPC;
+
+        if (humanGesture == paper && computerGesture == lizard) {
+            result = "computer";
         }
-        if (player1RPC.getRps() == scissors && player2RPC.getRps() == rock) {
-            player2RPC.setWinner(true);
-            winner = player2RPC;
+
+        if (humanGesture == rock && computerGesture == paper) {
+            result = "computer";
         }
-        if (player1RPC.getRps() == scissors && player2RPC.getRps() == paper) {
-            player1RPC.setWinner(true);
-            winner = player1RPC;
+        if (humanGesture == rock && computerGesture == scissors) {
+            result = "computer";
         }
-        return winner;
+
+        if (humanGesture == rock && computerGesture == spock) {
+            result = "human";
+        }
+
+        if (humanGesture == rock && computerGesture == lizard) {
+            result = "computer";
+        }
+
+        if (humanGesture == scissors && computerGesture == paper) {
+            result = "computer";
+        }
+
+        if (humanGesture == scissors && computerGesture == rock) {
+            result = "computer";
+        }
+
+        if (humanGesture == scissors && computerGesture == spock) {
+            result = "computer";
+        }
+
+        if (humanGesture == scissors && computerGesture == lizard) {
+            result = "computer";
+        }
+
+        if (humanGesture == spock && computerGesture == paper) {
+            result = "computer";
+        }
+
+        if (humanGesture == spock && computerGesture == rock) {
+            result = "computer";
+        }
+
+        if (humanGesture == spock && computerGesture == scissors) {
+            result = "computer";
+        }
+
+        if (humanGesture == spock && computerGesture == lizard) {
+            result = "computer";
+        }
+
+        if (humanGesture == lizard && computerGesture == paper) {
+            result = "computer";
+        }
+
+        if (humanGesture == lizard && computerGesture == rock) {
+            result = "computer";
+        }
+
+        if (humanGesture == lizard && computerGesture == scissors) {
+            result = "computer";
+        }
+
+        if (humanGesture == lizard && computerGesture == spock) {
+            result = "computer";
+        }
+
+        return result;
     }
 }

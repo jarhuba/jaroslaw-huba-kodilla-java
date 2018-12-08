@@ -1,5 +1,6 @@
 package com.kodilla.rps.main;
 
+import com.kodilla.rps.controller.MainPaneController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,20 +11,11 @@ public class RpsRunner extends Application {
 
     public static void main(String[] args) {
 
-        System.out.println("Gra w papier, kamień, nożyce");
+        System.out.println("Gra w papier, kamień, nożyczki, spock, jaszczurka");
         System.out.println("ver. 0.01 " + "initial attempt");
         launch(args);
-        boolean end = false;
 
-        Player computer = new Player(false, "Deep Thought Computer");
-        Player human = new Player(true, "Dwukwiat");
-        human.setRps("paper");
 
-        Logic logic = new Logic(computer, human);
-        Player winner = logic.matchWinner();
-        System.out.println("And the winner is... " + winner.getName());
-
-        //brak wprowadzania danych, opcji wyboru przez wchile(!end) itd
 
     }
 
@@ -36,5 +28,13 @@ public class RpsRunner extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("RPS");
         primaryStage.show();
+
+        Human human = new Human();
+        Computer computer = new Computer();
+        MainPaneController controller = new MainPaneController();
+        human.setRps(controller.getSelected());
+        computer.setRps();
+        Logic logic = new Logic(human, computer);
+        System.out.println(logic.resoult());
     }
 }
