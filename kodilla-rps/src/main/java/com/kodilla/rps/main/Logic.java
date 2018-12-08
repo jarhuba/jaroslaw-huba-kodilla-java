@@ -18,23 +18,23 @@ public class Logic {
 
     public String resoult() {
         String result = "";
-        if (humanGesture == computerGesture) {
+        if (humanGesture.equals(computerGesture)) {
             result = "remis";
         }
 
-        if (humanGesture == paper && computerGesture == rock) {
+        if (humanGesture.equals(paper) && computerGesture.equals(rock)) {
             result = "human";
         }
 
-        if (humanGesture == paper && computerGesture == scissors) {
+        if (humanGesture.equals(paper) && computerGesture.equals(scissors)) {
             result = "computer";
         }
 
-        if (humanGesture == paper && computerGesture == spock) {
+        if (humanGesture.equals(paper) && computerGesture.equals(spock)) {
             result = "human";
         }
 
-        if (humanGesture == paper && computerGesture == lizard) {
+        if (humanGesture.equals(paper) && computerGesture.equals(lizard)) {
             result = "computer";
         }
 

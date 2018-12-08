@@ -7,6 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Scanner;
+
 public class RpsRunner extends Application {
 
     public static void main(String[] args) {
@@ -14,7 +16,6 @@ public class RpsRunner extends Application {
         System.out.println("Gra w papier, kamień, nożyczki, spock, jaszczurka");
         System.out.println("ver. 0.01 " + "initial attempt");
         launch(args);
-
 
 
     }
@@ -32,9 +33,20 @@ public class RpsRunner extends Application {
         Human human = new Human();
         Computer computer = new Computer();
         MainPaneController controller = new MainPaneController();
-        human.setRps(controller.getSelected());
-        computer.setRps();
         Logic logic = new Logic(human, computer);
-        System.out.println(logic.resoult());
+
+        boolean end = false;
+
+        while (!end) {
+            if (controller.isGeneralButtonPushed() == true) {
+                human.setRps(controller.getSelected());
+                computer.setRps();
+                System.out.println(logic.resoult());
+                controller.setGeneralButtonPushed(false);
+            } else {
+                // oczekiwanie na akcję użytkownika
+                return;
+            }
+        }
     }
 }
