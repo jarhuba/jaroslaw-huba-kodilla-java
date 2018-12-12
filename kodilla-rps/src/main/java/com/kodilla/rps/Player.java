@@ -1,23 +1,13 @@
 package com.kodilla.rps;
 
-public abstract class Player {
+public class Player {
 
     private final String name;
     private int points;
-    private int move;
-
-    abstract void chooseMove(Game game);
+    private boolean computer;
 
     public Player(String name) {
         this.name = name;
-    }
-
-    public void setMove(int move) {
-        this.move = move;
-    }
-
-    public int getMove() {
-        return move;
     }
 
     public String getName() {
@@ -34,5 +24,13 @@ public abstract class Player {
 
     public void setPoints(int points) {
         this.points = points;
+    }
+
+    public boolean isComputer() {
+        return computer;
+    }
+
+    public void setComputer(boolean computer) {
+        this.computer = computer;
     }
 }

@@ -4,9 +4,8 @@ public class GameController {
 
     public void startGame() {
         Commander.startGameInfo();
-        String playerName = Commander.getPlayerName();
-        Player computer = new ComputerPlayer();
-        Player human = new HumanPlayer(playerName);
+        Player player1 = new HumanPlayer(Commander.getPlayerName());
+        Player player2 = new ComputerPlayer();
         GameProcessor gameProcessor;
         Game game;
         int roundToPlay;
@@ -22,21 +21,21 @@ public class GameController {
                 case 1:
                     roundToPlay = Commander.getRoundsToPlay();
                     game = new SimpleGame(roundToPlay);
-                    human.setPoints(0);
-                    computer.setPoints(0);
-                    gameProcessor = new GameProcessor(game, human, computer);
+                    player1.setPoints(0);
+                    player2.setPoints(0);
+                    gameProcessor = new GameProcessor(game, player1, player2);
                     gameProcessor.start();
                     Commander.showVerdict(gameProcessor);
-                    continue;
+                    break;
                 case 2:
                     roundToPlay = Commander.getRoundsToPlay();
                     game = new ExtendedGame(roundToPlay);
-                    human.setPoints(0);
-                    computer.setPoints(0);
-                    gameProcessor = new GameProcessor(game, human, computer);
+                    player1.setPoints(0);
+                    player2.setPoints(0);
+                    gameProcessor = new GameProcessor(game, player1, player2);
                     gameProcessor.start();
                     Commander.showVerdict(gameProcessor);
-                    continue;
+                    break;
             }
         }
     }

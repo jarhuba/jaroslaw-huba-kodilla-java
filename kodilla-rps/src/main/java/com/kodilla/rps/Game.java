@@ -4,16 +4,18 @@ public abstract class Game {
 
     private int roundCount;
     private int roundNumber;
-    private int gameType;
+    private int gameVersion;
 
     abstract String gameName();
 
-    abstract Player whoWinsRound(Player player1, Player player2);
+    abstract Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move);
 
     public Game(int roundNumber) {
         this.roundCount = 0;
         this.roundNumber = roundNumber;
     }
+
+    abstract int chooseMove(Player player);
 
     public void setRoundNumber(int roundNumber) {
         this.roundNumber = roundNumber;
@@ -31,11 +33,11 @@ public abstract class Game {
         this.roundCount = roundCount;
     }
 
-    public int getGameType() {
-        return gameType;
+    public int getGameVersion() {
+        return gameVersion;
     }
 
-    public void setGameType(int gameType) {
-        this.gameType = gameType;
+    public void setGameVersion(int gameVersion) {
+        this.gameVersion = gameVersion;
     }
 }

@@ -1,6 +1,28 @@
 package com.kodilla.rps;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Commander {
+
+    static Scanner sc = new Scanner(System.in);
+
+    public static String readStringFromConsole() {
+        return sc.nextLine();
+    }
+
+    public static int readIntFromConsole() {
+        int i = 0;
+        try {
+            i = sc.nextInt();
+            sc.nextLine();
+        } catch (InputMismatchException e) {
+            System.out.println("Nie podałeś liczby. Spróbuj jeszcze raz.");
+            sc.nextLine();
+            readIntFromConsole();
+        }
+        return i;
+    }
 
     public static void startGameInfo() {
         System.out.println("Witam w grze.");
@@ -26,16 +48,12 @@ public class Commander {
         System.out.println("Punktacja: " + player1.getName() + "->" + player1.getPoints() + "|" + player2.getPoints() + "<-" + player2.getName());
     }
 
-    public static void noIntInfo() {
-        System.out.println("Nie wprowadziłeś liczby, spróbuj jeszcze raz.");
-    }
-
     public static int selectGameType() {
         int gameSelected = 0;
         boolean availableGame = false;
         do {
             System.out.println("Wybierz typ gry \n 1 - tradycyjny\n 2 - rozszeżony\n 0 - kończy program");
-            gameSelected = HumanScannerInputReader.getInstance().getInt();
+            gameSelected = readIntFromConsole();
             if (gameSelected == 1) {
                 System.out.println("Wybrałeś wariant tradycyjny.");
             }
@@ -48,18 +66,14 @@ public class Commander {
     }
 
     private static boolean isSelectedGameTypeAvailable(int number) {
-        if (number == 0) {
-            return true;
+        switch (number) {
+            case 0:
+            case 1:
+            case 2:
+                return true;
         }
-        if (number == 1) {
-            return true;
-        }
-        if (number == 2) {
-            return true;
-        } else {
-            System.out.println("Wybierz 1, 2 lub 0.");
-            return false;
-        }
+        System.out.println("Wybierz 1, 2 lub 0.");
+        return false;
     }
 
     public static String getPlayerName() {
@@ -67,7 +81,7 @@ public class Commander {
         String name;
         boolean correctName = false;
         do {
-            name = HumanScannerInputReader.getInstance().getWord();
+            name = readStringFromConsole();
             correctName = isNameCorrect(name);
         } while (!correctName);
         return name;
@@ -77,7 +91,7 @@ public class Commander {
         if (name != null && !name.isEmpty()) {
             return true;
         } else {
-            System.out.println("Niepoprawne imię, podaj imię jeszcze raz");
+            System.out.println("Niepoprawne imię, podaj imię jeszcze raz.");
             return false;
         }
     }
@@ -87,7 +101,7 @@ public class Commander {
         boolean correctRoundNumber = false;
         int rounds = 0;
         do {
-            rounds = HumanScannerInputReader.getInstance().getInt();
+            rounds = readIntFromConsole();
             correctRoundNumber = isRoundsToPlayCorrect(rounds);
         } while (!correctRoundNumber);
 
@@ -109,26 +123,20 @@ public class Commander {
         System.out.println("Wasz pojedynek ma " + game.getRoundNumber() + " rund.");
     }
 
-    public static int getPlayerMove(Game game) {
+    public static int getPlayerMoveSimple() {
         System.out.println("Wybierz gest:");
 
         boolean correctMove = false;
         int move = 0;
         do {
-            move = HumanScannerInputReader.getInstance().getInt();
-            if (game.getGameType() == 1) {
-                correctMove = isPlayerSimpleMoveCorrect(move);
-            }
-            if (game.getGameType() == 2) {
-                correctMove = isPlayerExtendedMoveCorrect(move);
-            }
-
+            move = readIntFromConsole();
+            correctMove = isPlayerMoveSimpleCorrect(move);
         } while (!correctMove);
 
         return move;
     }
 
-    private static boolean isPlayerSimpleMoveCorrect(int move) {
+    private static boolean isPlayerMoveSimpleCorrect(int move) {
         if (move > 0 && move < 4) {
             return true;
         } else {
@@ -137,12 +145,20 @@ public class Commander {
         }
     }
 
-    public static void showSelectedMoves(Player player1, Player player2) {
-        System.out.print(player1.getName() + " wybrał " + player1.getMove() + ", ");
-        System.out.println(player2.getName() + " wybrał " + player2.getMove() + ".");
+    public static int getPlayerMoveExtended() {
+        System.out.println("Wybierz gest:");
+
+        boolean correctMove = false;
+        int move = 0;
+        do {
+            move = readIntFromConsole();
+            correctMove = isPlayerMoveExtendedCorrect(move);
+        } while (!correctMove);
+
+        return move;
     }
 
-    private static boolean isPlayerExtendedMoveCorrect(int move) {
+    private static boolean isPlayerMoveExtendedCorrect(int move) {
         if (move > 0 && move < 6) {
             return true;
         } else {
@@ -151,8 +167,18 @@ public class Commander {
         }
     }
 
+    public static void showSelectedMove(Player player, int i) {
+        System.out.println(player.getName() + " wybrał " + i + ".");
+    }
+
     public static void showMenu(Game game) {
-        System.out.println(new Menu(game).getMenu());
+        String simple = "Podaj swój ruch:\n1 - papier\n2 - kamień\n3 - nożyce";
+        String extended = "\n4 - spock\n5 - jaszczurka";
+        if (game.getGameVersion() == 1) {
+            System.out.println(simple);
+        } else {
+            System.out.println(simple + extended);
+        }
     }
 
     public static void showVerdict(GameProcessor gameProcessor) {
@@ -160,6 +186,6 @@ public class Commander {
     }
 
     public static void closeInput() {
-        HumanScannerInputReader.getInstance().closeScanner();
+        sc.close();
     }
 }

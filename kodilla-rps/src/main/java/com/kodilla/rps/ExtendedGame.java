@@ -1,10 +1,26 @@
 package com.kodilla.rps;
 
+import java.util.Random;
+
 public class ExtendedGame extends Game {
+
+    private Random rand = new Random();
 
     public ExtendedGame(int roundNumber) {
         super(roundNumber);
-        super.setGameType(2);
+        super.setGameVersion(2);
+    }
+
+    @Override
+    public int chooseMove(Player player) {
+        int selectedMove;
+        if (player.isComputer()) {
+            selectedMove = rand.nextInt(5) + 1;
+            return selectedMove;
+        } else {
+            selectedMove = Commander.getPlayerMoveExtended();
+            return selectedMove;
+        }
     }
 
     @Override
@@ -13,77 +29,76 @@ public class ExtendedGame extends Game {
     }
 
     @Override
-    public Player whoWinsRound(Player player1, Player player2) {
-        int player1int = player1.getMove();
-        int player2int = player2.getMove();
+    public Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move) {
+
         int paper = 1;
         int rock = 2;
         int scissors = 3;
         int spock = 4;
         int lizard = 5;
 
-        if (player1int == paper && player2int == rock) {
+        if (player1Move == paper && player2Move == rock) {
             return player1;
         }
-        if (player1int == paper && player2int == scissors) {
+        if (player1Move == paper && player2Move == scissors) {
             return player2;
         }
-        if (player1int == paper && player2int == spock) {
+        if (player1Move == paper && player2Move == spock) {
             return player1;
         }
-        if (player1int == paper && player2int == lizard) {
+        if (player1Move == paper && player2Move == lizard) {
             return player2;
         }
 
-        if (player1int == rock && player2int == paper) {
+        if (player1Move == rock && player2Move == paper) {
             return player2;
         }
-        if (player1int == rock && player2int == scissors) {
+        if (player1Move == rock && player2Move == scissors) {
             return player1;
         }
-        if (player1int == rock && player2int == spock) {
+        if (player1Move == rock && player2Move == spock) {
             return player2;
         }
-        if (player1int == rock && player2int == lizard) {
+        if (player1Move == rock && player2Move == lizard) {
             return player1;
         }
 
-        if (player1int == scissors && player2int == paper) {
+        if (player1Move == scissors && player2Move == paper) {
             return player1;
         }
-        if (player1int == scissors && player2int == rock) {
+        if (player1Move == scissors && player2Move == rock) {
             return player2;
         }
-        if (player1int == scissors && player2int == spock) {
+        if (player1Move == scissors && player2Move == spock) {
             return player2;
         }
-        if (player1int == scissors && player2int == lizard) {
+        if (player1Move == scissors && player2Move == lizard) {
             return player2;
         }
 
-        if (player1int == spock && player2int == rock) {
+        if (player1Move == spock && player2Move == rock) {
             return player1;
         }
-        if (player1int == spock && player2int == scissors) {
+        if (player1Move == spock && player2Move == scissors) {
             return player1;
         }
-        if (player1int == spock && player2int == paper) {
+        if (player1Move == spock && player2Move == paper) {
             return player2;
         }
-        if (player1int == spock && player2int == lizard) {
+        if (player1Move == spock && player2Move == lizard) {
             return player2;
         }
 
-        if (player1int == lizard && player2int == rock) {
+        if (player1Move == lizard && player2Move == rock) {
             return player2;
         }
-        if (player1int == lizard && player2int == scissors) {
+        if (player1Move == lizard && player2Move == scissors) {
             return player2;
         }
-        if (player1int == lizard && player2int == spock) {
+        if (player1Move == lizard && player2Move == spock) {
             return player1;
         }
-        if (player1int == lizard && player2int == paper) {
+        if (player1Move == lizard && player2Move == paper) {
             return player1;
         }
 

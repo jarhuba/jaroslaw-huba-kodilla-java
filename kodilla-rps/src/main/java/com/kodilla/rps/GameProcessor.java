@@ -15,19 +15,26 @@ public class GameProcessor {
     public void start() {
         Commander.startGameInvocation(game, player1, player2);
         Player tmp;
+
+        int player1Move;
+        int player2Move;
+
         boolean roundsFinished = false;
         while (!roundsFinished) {
             if (game.getRoundNumber() > game.getRoundCount()) {
                 Commander.showMenu(game);
-                player1.chooseMove(game);
-                player2.chooseMove(game);
-                Commander.showSelectedMoves(player1, player2);
-                if (player1.getMove() == player2.getMove()) {
+                player1Move = game.chooseMove(player1);
+                player2Move = game.chooseMove(player2);
+
+                Commander.showSelectedMove(player1, player1Move);
+                Commander.showSelectedMove(player2, player2Move);
+
+                if (player1Move == player2Move) {
                     Commander.drawRoundInfo();
                 } else {
-                    tmp = game.whoWinsRound(player1, player2);
+                    tmp = game.whoWinsRound(player1, player1Move, player2, player2Move);
                     Commander.showRoundResult(tmp);
-                    game.whoWinsRound(player1, player2).addPoint();
+                    tmp.addPoint();
                 }
                 game.setRoundCount(game.getRoundCount() + 1);
             } else {
