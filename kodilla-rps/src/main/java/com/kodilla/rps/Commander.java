@@ -12,14 +12,17 @@ public class Commander {
     }
 
     public static int readIntFromConsole() {
+        boolean correct = false;
         int i = 0;
-        try {
-            i = sc.nextInt();
-            sc.nextLine();
-        } catch (InputMismatchException e) {
-            System.out.println("Nie podałeś liczby. Spróbuj jeszcze raz.");
-            sc.nextLine();
-            readIntFromConsole();
+        while (!correct) {
+            try {
+                i = sc.nextInt();
+                sc.nextLine();
+                correct = true;
+            } catch (InputMismatchException e) {
+                System.out.println("Nie podałeś liczby. Spróbuj jeszcze raz.");
+                sc.nextLine();
+            }
         }
         return i;
     }
