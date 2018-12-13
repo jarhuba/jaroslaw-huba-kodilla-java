@@ -17,6 +17,11 @@ public class SimpleGame extends Game {
         int selectedMove = 0;
         if (computer) {
             selectedMove = rand.nextInt(3) + 1;
+            try {
+                Thread.sleep(150);
+            } catch (InterruptedException e) {
+                // pomiń błąd i kontynuuj
+            }
             return selectedMove;
         } else {
             selectedMove = Commander.getPlayerMoveSimple(player.getName());
@@ -58,4 +63,6 @@ public class SimpleGame extends Game {
         }
         return player1;
     }
+
+
 }

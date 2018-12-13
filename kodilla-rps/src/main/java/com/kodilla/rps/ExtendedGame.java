@@ -17,6 +17,11 @@ public class ExtendedGame extends Game {
         int selectedMove;
         if (computer) {
             selectedMove = rand.nextInt(5) + 1;
+            try {
+                Thread.sleep(150);
+            } catch (InterruptedException e) {
+                // pomiń błąd i kontynuuj
+            }
             return selectedMove;
         } else {
             selectedMove = Commander.getPlayerMoveExtended(player.getName());
