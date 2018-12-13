@@ -9,6 +9,6 @@ public class HumanPlayer extends Player {
 
     @Override
     int getMove(Game game) {
-        return game.chooseMove(this.isComputer());
+        return game.chooseMove(this);
     }
 }

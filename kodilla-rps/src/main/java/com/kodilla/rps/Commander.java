@@ -116,7 +116,7 @@ public class Commander {
     }
 
     public static String getPlayerName() {
-        System.out.println("Podaj swoje imię:");
+        System.out.println("Podaj imię dla gracza:");
         String name;
         boolean correctName = false;
         do {
@@ -162,16 +162,14 @@ public class Commander {
         System.out.println("Wasz pojedynek ma " + game.getRoundNumber() + " rund.");
     }
 
-    public static int getPlayerMoveSimple() {
-        System.out.println("Wybierz gest:");
-
+    public static int getPlayerMoveSimple(String playerName) {
+        System.out.println(playerName + " wybierz gest:");
         boolean correctMove = false;
         int move = 0;
         do {
             move = readIntFromConsole();
             correctMove = isPlayerMoveSimpleCorrect(move);
         } while (!correctMove);
-
         return move;
     }
 
@@ -184,16 +182,14 @@ public class Commander {
         }
     }
 
-    public static int getPlayerMoveExtended() {
-        System.out.println("Wybierz gest:");
-
+    public static int getPlayerMoveExtended(String playerName) {
+        System.out.println(playerName + " wybierz gest:");
         boolean correctMove = false;
         int move = 0;
         do {
             move = readIntFromConsole();
             correctMove = isPlayerMoveExtendedCorrect(move);
         } while (!correctMove);
-
         return move;
     }
 

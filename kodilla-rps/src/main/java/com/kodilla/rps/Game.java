@@ -15,7 +15,7 @@ public abstract class Game {
         this.roundNumber = roundNumber;
     }
 
-    abstract int chooseMove(boolean computer);
+    abstract int chooseMove(Player player);
 
     public void setRoundNumber(int roundNumber) {
         this.roundNumber = roundNumber;

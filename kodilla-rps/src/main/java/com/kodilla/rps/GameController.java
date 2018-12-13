@@ -11,15 +11,15 @@ public class GameController {
 
         int playersType = Commander.selectOpponent();
         switch (playersType) {
-            case 1:
+            case 1: // człowiek - komputer
                 player1 = new HumanPlayer(Commander.getPlayerName());
                 player2 = new ComputerPlayer();
                 break;
-            case 2:
+            case 2: // człowiek - człowiek
                 player1 = new HumanPlayer(Commander.getPlayerName());
                 player2 = new HumanPlayer(Commander.getPlayerName());
                 break;
-            case 3:
+            case 3: // komputer - komputer
                 player1 = new ComputerPlayer();
                 player2 = new ComputerPlayer();
                 break;

@@ -12,13 +12,14 @@ public class SimpleGame extends Game {
     }
 
     @Override
-    public int chooseMove(boolean computer) {
+    public int chooseMove(Player player) {
+        boolean computer = player.isComputer();
         int selectedMove = 0;
         if (computer) {
             selectedMove = rand.nextInt(3) + 1;
             return selectedMove;
         } else {
-            selectedMove = Commander.getPlayerMoveSimple();
+            selectedMove = Commander.getPlayerMoveSimple(player.getName());
             return selectedMove;
         }
     }

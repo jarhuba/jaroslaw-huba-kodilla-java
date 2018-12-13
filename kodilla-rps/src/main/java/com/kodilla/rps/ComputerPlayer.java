@@ -1,7 +1,5 @@
 package com.kodilla.rps;
 
-import java.util.Random;
-
 public class ComputerPlayer extends Player {
 
     public ComputerPlayer() {
@@ -11,6 +9,6 @@ public class ComputerPlayer extends Player {
 
     @Override
     int getMove(Game game) {
-        return game.chooseMove(this.isComputer());
+        return game.chooseMove(this);
     }
 }

@@ -12,13 +12,14 @@ public class ExtendedGame extends Game {
     }
 
     @Override
-    public int chooseMove(boolean computer) {
+    public int chooseMove(Player player) {
+        boolean computer = player.isComputer();
         int selectedMove;
         if (computer) {
             selectedMove = rand.nextInt(5) + 1;
             return selectedMove;
         } else {
-            selectedMove = Commander.getPlayerMoveExtended();
+            selectedMove = Commander.getPlayerMoveExtended(player.getName());
             return selectedMove;
         }
     }
