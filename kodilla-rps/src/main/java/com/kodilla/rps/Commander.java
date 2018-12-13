@@ -31,6 +31,31 @@ public class Commander {
         System.out.println("Witam w grze.");
     }
 
+    public static int selectOpponent() {
+        int i = 0;
+        boolean finishedReading = false;
+        do {
+            System.out.println("Wybierz tryb rozgrywki:\n1 - z komputerem\n2 - z całowiekiem\n3 - demo komputer z komputerem");
+            i = readIntFromConsole();
+            if (isSelectedOpponentAvailable(i)) {
+                finishedReading = true;
+            }
+        }
+        while (!finishedReading);
+        return i;
+    }
+
+    private static boolean isSelectedOpponentAvailable(int number) {
+        switch (number) {
+            case 1:
+            case 2:
+            case 3:
+                return true;
+        }
+        System.out.println("Wybierz 1, 2 lub 0.");
+        return false;
+    }
+
     public static void endGameInfo() {
         System.out.println("Dziękuję za grę.");
     }
@@ -57,11 +82,22 @@ public class Commander {
         do {
             System.out.println("Wybierz typ gry \n 1 - tradycyjny\n 2 - rozszeżony\n 0 - kończy program");
             gameSelected = readIntFromConsole();
-            if (gameSelected == 1) {
-                System.out.println("Wybrałeś wariant tradycyjny.");
-            }
-            if (gameSelected == 2) {
-                System.out.println("Wybrałeś wariant rozszeżony.");
+            switch (gameSelected) {
+                case 0:
+                    System.out.println("Wybrałeś zakończenie programu");
+                    availableGame = true;
+                    break;
+                case 1:
+                    System.out.println("Wybrałeś wariant tradycyjny.");
+                    break;
+                case 2:
+                    System.out.println("Wybrałeś wariant rozszeżony.");
+                    break;
+                    /*
+                default:
+                    System.out.println("Wybierz 1, 2 lub 0.");
+                    break;
+                    */
             }
             availableGame = isSelectedGameTypeAvailable(gameSelected);
         } while (!availableGame);
@@ -100,7 +136,7 @@ public class Commander {
     }
 
     public static int getRoundsToPlay() {
-        System.out.println("Podaj ilość rund (max 10):");
+        System.out.println("Podaj ilość rund (max 1000):");
         boolean correctRoundNumber = false;
         int rounds = 0;
         do {
@@ -112,7 +148,7 @@ public class Commander {
     }
 
     private static boolean isRoundsToPlayCorrect(int rounds) {
-        if (rounds > 0 && rounds < 11) {
+        if (rounds > 0 && rounds < 1001) {
             return true;
         } else {
             System.out.println("Podałeś niedozwoloną wartość, spróbuj jeszcze raz");

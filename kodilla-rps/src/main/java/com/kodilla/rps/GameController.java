@@ -4,19 +4,41 @@ public class GameController {
 
     public void startGame() {
         Commander.startGameInfo();
-        Player player1 = new HumanPlayer(Commander.getPlayerName());
-        Player player2 = new ComputerPlayer();
         GameProcessor gameProcessor;
         Game game;
+        Player player1;
+        Player player2;
+
+        int playersType = Commander.selectOpponent();
+        switch (playersType) {
+            case 1:
+                player1 = new HumanPlayer(Commander.getPlayerName());
+                player2 = new ComputerPlayer();
+                break;
+            case 2:
+                player1 = new HumanPlayer(Commander.getPlayerName());
+                player2 = new HumanPlayer(Commander.getPlayerName());
+                break;
+            case 3:
+                player1 = new ComputerPlayer();
+                player2 = new ComputerPlayer();
+                break;
+            default:
+                // default dodane dla zapewnienia utwożenia obiektów Player,
+                // może lepiej podać Player player1 = null; ?
+                player1 = new ComputerPlayer();
+                player2 = new ComputerPlayer();
+                break;
+        }
+
         int roundToPlay;
         int gameType;
-        boolean doingGame = true;
-
-        while (doingGame) {
+        boolean selectedGame = false;
+        while (!selectedGame) {
             gameType = Commander.selectGameType();
             switch (gameType) {
                 case 0:
-                    doingGame = false;
+                    selectedGame = true;
                     break;
                 case 1:
                     roundToPlay = Commander.getRoundsToPlay();
