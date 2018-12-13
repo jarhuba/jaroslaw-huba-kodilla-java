@@ -35,7 +35,7 @@ public class Commander {
         int i = 0;
         boolean finishedReading = false;
         do {
-            System.out.println("Wybierz tryb rozgrywki:\n1 - z komputerem\n2 - z całowiekiem\n3 - demo komputer z komputerem");
+            System.out.println("Wybierz tryb rozgrywki:\n1 - z komputerem\n2 - z człowiekiem\n3 - demo komputer z komputerem");
             i = readIntFromConsole();
             if (isSelectedOpponentAvailable(i)) {
                 finishedReading = true;
@@ -158,7 +158,7 @@ public class Commander {
 
     public static void startGameInvocation(Game game, Player player1, Player player2) {
         System.out.println("Witaj " + player1.getName() + " i " + player2.getName() + ".");
-        System.out.println("Grasz w " + game.gameName());
+        System.out.println("Grasz w " + game.getGameVersion());
         System.out.println("Wasz pojedynek ma " + game.getRoundNumber() + " rund.");
     }
 
@@ -209,7 +209,7 @@ public class Commander {
     public static void showMenu(Game game) {
         String simple = "Podaj swój ruch:\n1 - papier\n2 - kamień\n3 - nożyce";
         String extended = "\n4 - spock\n5 - jaszczurka";
-        if (game.getGameVersion() == 1) {
+        if (game.getGameVersion().equals("PAPIER, KAMIEŃ i NOŻYCE")) {
             System.out.println(simple);
         } else {
             System.out.println(simple + extended);

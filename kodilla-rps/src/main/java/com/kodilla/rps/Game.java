@@ -4,9 +4,7 @@ public abstract class Game {
 
     private int roundCount;
     private int roundNumber;
-    private int gameVersion;
-
-    abstract String gameName();
+    private String gameVersion;
 
     abstract Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move);
 
@@ -33,11 +31,11 @@ public abstract class Game {
         this.roundCount = roundCount;
     }
 
-    public int getGameVersion() {
+    public String getGameVersion() {
         return gameVersion;
     }
 
-    public void setGameVersion(int gameVersion) {
+    public void setGameVersion(String gameVersion) {
         this.gameVersion = gameVersion;
     }
 }

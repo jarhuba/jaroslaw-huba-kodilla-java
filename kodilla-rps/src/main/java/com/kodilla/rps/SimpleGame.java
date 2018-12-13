@@ -8,7 +8,7 @@ public class SimpleGame extends Game {
 
     public SimpleGame(int roundNumber) {
         super(roundNumber);
-        super.setGameVersion(1);
+        super.setGameVersion("PAPIER, KAMIEŃ i NOŻYCE");
     }
 
     @Override
@@ -27,11 +27,6 @@ public class SimpleGame extends Game {
             selectedMove = Commander.getPlayerMoveSimple(player.getName());
             return selectedMove;
         }
-    }
-
-    @Override
-    String gameName() {
-        return "PAPIER, KAMIEŃ i NOŻYCE";
     }
 
     @Override

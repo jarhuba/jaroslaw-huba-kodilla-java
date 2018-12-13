@@ -8,7 +8,7 @@ public class ExtendedGame extends Game {
 
     public ExtendedGame(int roundNumber) {
         super(roundNumber);
-        super.setGameVersion(2);
+        super.setGameVersion("PAPIER, KAMIEŃ, NOŻYCE, SPOCK, JASZCZURKA");
     }
 
     @Override
@@ -27,11 +27,6 @@ public class ExtendedGame extends Game {
             selectedMove = Commander.getPlayerMoveExtended(player.getName());
             return selectedMove;
         }
-    }
-
-    @Override
-    String gameName() {
-        return "PAPIER, KAMIEŃ, NOŻYCE, SPOCK, JASZCZURKA";
     }
 
     @Override
