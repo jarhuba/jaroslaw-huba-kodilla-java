@@ -23,8 +23,8 @@ public class GameProcessor {
         while (!roundsFinished) {
             if (game.getRoundNumber() > game.getRoundCount()) {
                 Commander.showMenu(game);
-                player1Move = game.chooseMove(player1);
-                player2Move = game.chooseMove(player2);
+                player1Move = player1.getMove(game);
+                player2Move = player2.getMove(game);
 
                 Commander.showSelectedMove(player1, player1Move);
                 Commander.showSelectedMove(player2, player2Move);

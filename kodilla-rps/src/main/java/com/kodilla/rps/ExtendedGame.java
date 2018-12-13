@@ -12,9 +12,9 @@ public class ExtendedGame extends Game {
     }
 
     @Override
-    public int chooseMove(Player player) {
+    public int chooseMove(boolean computer) {
         int selectedMove;
-        if (player.isComputer()) {
+        if (computer) {
             selectedMove = rand.nextInt(5) + 1;
             return selectedMove;
         } else {

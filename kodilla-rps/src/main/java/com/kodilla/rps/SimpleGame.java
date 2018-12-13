@@ -12,9 +12,9 @@ public class SimpleGame extends Game {
     }
 
     @Override
-    public int chooseMove(Player player) {
-        int selectedMove;
-        if (player.isComputer()) {
+    public int chooseMove(boolean computer) {
+        int selectedMove = 0;
+        if (computer) {
             selectedMove = rand.nextInt(3) + 1;
             return selectedMove;
         } else {

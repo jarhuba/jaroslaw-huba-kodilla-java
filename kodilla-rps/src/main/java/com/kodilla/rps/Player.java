@@ -1,10 +1,12 @@
 package com.kodilla.rps;
 
-public class Player {
+public abstract class Player {
 
     private final String name;
     private int points;
     private boolean computer;
+
+    abstract int getMove(Game game);
 
     public Player(String name) {
         this.name = name;

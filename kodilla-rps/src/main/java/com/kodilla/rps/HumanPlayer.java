@@ -6,4 +6,9 @@ public class HumanPlayer extends Player {
         super(name);
         super.setComputer(false);
     }
+
+    @Override
+    int getMove(Game game) {
+        return game.chooseMove(this.isComputer());
+    }
 }

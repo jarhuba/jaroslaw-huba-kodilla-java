@@ -8,4 +8,9 @@ public class ComputerPlayer extends Player {
         super("Komputer");
         super.setComputer(true);
     }
+
+    @Override
+    int getMove(Game game) {
+        return game.chooseMove(this.isComputer());
+    }
 }
