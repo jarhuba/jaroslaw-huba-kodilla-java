@@ -26,6 +26,8 @@ public class GameController {
             default:
                 // default dodane dla zapewnienia utwożenia obiektów Player,
                 // może lepiej podać Player player1 = null; ?
+                // albo utwożyć new Player(); dla klasy Player bez dziedziczenia i ustawić tutaj isComputer(true)
+                // oraz getPlayerName()
                 player1 = new ComputerPlayer();
                 player2 = new ComputerPlayer();
                 break;

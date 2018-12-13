@@ -36,33 +36,26 @@ public class SimpleGame extends Game {
 
     @Override
     public Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move) {
+        /*
+        paper = 1;
+        rock = 2;
+        scissors = 3;
+        */
 
-        int paper = 1;
-        int rock = 2;
-        int scissors = 3;
+        int simpleGameRules[][] = {{1, 2, 1}, {1, 3, 2}, {2, 3, 1}, {2, 1, 2}, {3, 1, 1}, {3, 2, 2}};
 
-        if (player1Move == paper && player2Move == rock) {
-            return player1;
+        int playerNumberWhoWins = 0;
+
+        for (int i = 0; i < simpleGameRules.length - 1; i++) {
+            if (simpleGameRules[i][0] == player1Move && simpleGameRules[i][1] == player2Move) {
+                playerNumberWhoWins = simpleGameRules[i][2];
+            }
         }
-        if (player1Move == paper && player2Move == scissors) {
+
+        if (playerNumberWhoWins == 1) {
+            return player1;
+        } else {
             return player2;
         }
-
-        if (player1Move == rock && player2Move == paper) {
-            return player2;
-        }
-        if (player1Move == rock && player2Move == scissors) {
-            return player1;
-        }
-
-        if (player1Move == scissors && player2Move == paper) {
-            return player1;
-        }
-        if (player1Move == scissors && player2Move == rock) {
-            return player2;
-        }
-        return player1;
     }
-
-
 }

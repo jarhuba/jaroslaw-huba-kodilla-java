@@ -36,78 +36,43 @@ public class ExtendedGame extends Game {
 
     @Override
     public Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move) {
+        /*
+        paper = 1
+        rock = 2
+        scissors = 3
+        spock = 4
+        lizard = 5
 
-        int paper = 1;
-        int rock = 2;
-        int scissors = 3;
-        int spock = 4;
-        int lizard = 5;
+        kamień zgniata jaszczurkę,
+        jaszczurka zatruwa Spocka,
+        Spock łamie nożyce,
+        nożyce ranią jaszczurkę,
+        jaszczurka zjada papier,
+        papier udowadnia błąd Spocka,
+        Spock kruszy kamień.
+        */
 
-        if (player1Move == paper && player2Move == rock) {
-            return player1;
-        }
-        if (player1Move == paper && player2Move == scissors) {
-            return player2;
-        }
-        if (player1Move == paper && player2Move == spock) {
-            return player1;
-        }
-        if (player1Move == paper && player2Move == lizard) {
-            return player2;
-        }
+        int simpleGameRules[][] = {{1, 2, 1}, {1, 3, 2}, {2, 3, 1}, {2, 1, 2}, {3, 1, 1}, {3, 2, 2}};
+        int extensionGameRules[][] = {{1, 4, 1}, {1, 5, 2}, {2, 4, 2}, {2, 5, 1}, {3, 4, 2}, {3, 5, 1},
+                {4, 1, 2}, {4, 2, 1}, {4, 3, 1}, {4, 5, 2}, {5, 1, 1}, {5, 2, 2}, {5, 3, 2}, {5, 4, 1}};
 
-        if (player1Move == rock && player2Move == paper) {
-            return player2;
-        }
-        if (player1Move == rock && player2Move == scissors) {
-            return player1;
-        }
-        if (player1Move == rock && player2Move == spock) {
-            return player2;
-        }
-        if (player1Move == rock && player2Move == lizard) {
-            return player1;
-        }
+        int playerNumberWhoWins = 0;
 
-        if (player1Move == scissors && player2Move == paper) {
-            return player1;
+        for (int i = 0; i < simpleGameRules.length - 1; i++) {
+            if (simpleGameRules[i][0] == player1Move && simpleGameRules[i][1] == player2Move) {
+                playerNumberWhoWins = simpleGameRules[i][2];
+            }
         }
-        if (player1Move == scissors && player2Move == rock) {
-            return player2;
-        }
-        if (player1Move == scissors && player2Move == spock) {
-            return player2;
-        }
-        if (player1Move == scissors && player2Move == lizard) {
-            return player2;
+        for (int i = 0; i < extensionGameRules.length - 1; i++) {
+            if (extensionGameRules[i][0] == player1Move && extensionGameRules[i][1] == player2Move) {
+                playerNumberWhoWins = extensionGameRules[i][2];
+            }
         }
 
-        if (player1Move == spock && player2Move == rock) {
+        if (playerNumberWhoWins == 1) {
             return player1;
-        }
-        if (player1Move == spock && player2Move == scissors) {
-            return player1;
-        }
-        if (player1Move == spock && player2Move == paper) {
+        } else {
             return player2;
         }
-        if (player1Move == spock && player2Move == lizard) {
-            return player2;
-        }
-
-        if (player1Move == lizard && player2Move == rock) {
-            return player2;
-        }
-        if (player1Move == lizard && player2Move == scissors) {
-            return player2;
-        }
-        if (player1Move == lizard && player2Move == spock) {
-            return player1;
-        }
-        if (player1Move == lizard && player2Move == paper) {
-            return player1;
-        }
-
-        return player1;
     }
 }
