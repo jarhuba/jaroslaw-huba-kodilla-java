@@ -6,14 +6,12 @@ public abstract class Game {
     private int roundNumber;
     private String gameVersion;
 
-    abstract Player whoWinsRound(Player player1, int player1Move, Player player2, int player2Move);
+    abstract RoundResoult whoWinRound(int player1Move, int player2Move);
 
     public Game(int roundNumber) {
         this.roundCount = 0;
         this.roundNumber = roundNumber;
     }
-
-    abstract int chooseMove(Player player);
 
     public void setRoundNumber(int roundNumber) {
         this.roundNumber = roundNumber;

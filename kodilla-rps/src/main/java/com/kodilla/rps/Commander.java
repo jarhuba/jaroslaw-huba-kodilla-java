@@ -68,8 +68,8 @@ public class Commander {
         System.out.println("Remis w grze. Gracie dodatkową runę.");
     }
 
-    public static void showRoundResult(Player playerWhoWins) {
-        System.out.println("Tę rundę wygrał " + playerWhoWins.getName() + ".");
+    public static void showRoundResult(String playerWhoWins) {
+        System.out.println("Tę rundę wygrał " + playerWhoWins + ".");
     }
 
     public static void showGameResult(Player player1, Player player2) {
@@ -80,7 +80,7 @@ public class Commander {
         int gameSelected = 0;
         boolean availableGame = false;
         do {
-            System.out.println("Wybierz typ gry \n 1 - tradycyjny\n 2 - rozszeżony\n 0 - kończy program");
+            System.out.println("Wybierz typ gry \n 1 - tradycyjny\n 0 - kończy program");
             gameSelected = readIntFromConsole();
             switch (gameSelected) {
                 case 0:
@@ -90,10 +90,10 @@ public class Commander {
                 case 1:
                     System.out.println("Wybrałeś wariant tradycyjny.");
                     break;
+                    /*
                 case 2:
                     System.out.println("Wybrałeś wariant rozszeżony.");
                     break;
-                    /*
                 default:
                     System.out.println("Wybierz 1, 2 lub 0.");
                     break;
@@ -108,10 +108,10 @@ public class Commander {
         switch (number) {
             case 0:
             case 1:
-            case 2:
+            //case 2:
                 return true;
         }
-        System.out.println("Wybierz 1, 2 lub 0.");
+        System.out.println("Wybierz 1 lub 0.");
         return false;
     }
 
@@ -202,8 +202,8 @@ public class Commander {
         }
     }
 
-    public static void showSelectedMove(Player player, int i) {
-        System.out.println(player.getName() + " wybrał " + i + ".");
+    public static void showSelectedMove(String player, String result) {
+        System.out.println(player + " wybrał " + result + ".");
     }
 
     public static void showMenu(Game game) {

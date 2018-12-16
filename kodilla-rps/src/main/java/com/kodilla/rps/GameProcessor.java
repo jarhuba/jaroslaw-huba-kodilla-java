@@ -14,40 +14,53 @@ public class GameProcessor {
 
     public void start() {
         Commander.startGameInvocation(game, player1, player2);
-        Player tmp;
-
-        int player1Move;
-        int player2Move;
 
         boolean roundsFinished = false;
-        while (!roundsFinished) {
+        do {
             if (game.getRoundNumber() > game.getRoundCount()) {
                 Commander.showMenu(game);
-                player1Move = player1.getMove(game);
-                player2Move = player2.getMove(game);
+                int player1Move = player1.getMove();
+                int player2Move = player2.getMove();
+                Commander.showSelectedMove(player1.getName(), Gestures.getGestureStringName(player1Move));
+                Commander.showSelectedMove(player2.getName(), Gestures.getGestureStringName(player2Move));
+                RoundResoult winnerPlayer = game.whoWinRound(player1Move, player2Move);
 
-                Commander.showSelectedMove(player1, player1Move);
-                Commander.showSelectedMove(player2, player2Move);
-
-                if (player1Move == player2Move) {
-                    Commander.drawRoundInfo();
-                } else {
-                    tmp = game.whoWinsRound(player1, player1Move, player2, player2Move);
-                    Commander.showRoundResult(tmp);
-                    tmp.addPoint();
+                switch (winnerPlayer) {
+                    case PLAYER1:
+                        Commander.showRoundResult(player1.getName());
+                        player1.addPoint();
+                        break;
+                    case PLAYER2:
+                        Commander.showRoundResult(player2.getName());
+                        player2.addPoint();
+                        break;
+                    case REMIS:
+                        Commander.drawRoundInfo();
+                        break;
                 }
                 game.setRoundCount(game.getRoundCount() + 1);
-            } else {
-                if (player1.getPoints() == player2.getPoints()) {
-                    Commander.drawGameInfo();
-                    game.setRoundNumber(game.getRoundNumber() + 1);
-                } else {
-                    roundsFinished = true;
-                }
             }
-        }
+
+            else if (game.getRoundNumber() == game.getRoundCount() && player1.getPoints() == player2.getPoints()) {
+                Commander.drawGameInfo();
+                game.setRoundNumber(game.getRoundNumber() + 1);
+            } else {
+                roundsFinished = true;
+            }
+        } while (!roundsFinished);
     }
 
+    /*
+        public Player playerFromRoundResoult(RoundResoult roundResoult) {
+            switch (roundResoult) {
+                case PLAYER1:
+                    return this.player1;
+                case PLAYER2:
+                    return this.player2;
+            }
+            return this.player1;
+        }
+    */
     public Player verdict() {
         Commander.showGameResult(player1, player2);
         if (player1.getPoints() > player2.getPoints()) {

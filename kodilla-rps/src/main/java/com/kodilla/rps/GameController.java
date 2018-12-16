@@ -51,6 +51,7 @@ public class GameController {
                     gameProcessor.start();
                     Commander.showVerdict(gameProcessor);
                     break;
+                    /*
                 case 2:
                     roundToPlay = Commander.getRoundsToPlay();
                     game = new ExtendedGame(roundToPlay);
@@ -60,6 +61,7 @@ public class GameController {
                     gameProcessor.start();
                     Commander.showVerdict(gameProcessor);
                     break;
+                    */
             }
         }
     }
