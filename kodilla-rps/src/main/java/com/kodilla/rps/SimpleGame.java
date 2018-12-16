@@ -17,8 +17,8 @@ public class SimpleGame extends Game {
 
         int tab[][] = {
                 {0, 1, 2},
-                {1, 0, 2},
-                {2, 1, 0}
+                {2, 0, 1},
+                {1, 2, 0}
         };
 
         int roundResoult = tab[player1Move - 1][player2Move - 1];
