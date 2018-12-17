@@ -2,7 +2,7 @@ package com.kodilla.good.patterns.challenges;
 
 import com.kodilla.good.patterns.challenges.basket.Basket;
 
-public interface DeliveryMethod {
+public interface PaymentServce {
 
-    double calculatePriceOfDelivery(Basket basket);
+    boolean process(Basket basket);
 }

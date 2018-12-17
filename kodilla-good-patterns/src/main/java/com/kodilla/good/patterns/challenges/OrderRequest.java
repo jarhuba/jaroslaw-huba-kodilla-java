@@ -1,15 +1,22 @@
 package com.kodilla.good.patterns.challenges;
 
+import com.kodilla.good.patterns.challenges.basket.Basket;
+
 public class OrderRequest {
 
     private User user;
     private Basket basket;
-    private DeliveryMethod deliveryMethod;
 
-    public OrderRequest(User user, Basket basket, DeliveryMethod deliveryMethod) {
+    public OrderRequest(User user, Basket basket) {
         this.user = user;
         this.basket = basket;
-        this.deliveryMethod = deliveryMethod;
     }
-}
+
+    public User getUser() {
+        return user;
+    }
+
+    public Basket getBasket() {
+        return basket;
+    }
 }

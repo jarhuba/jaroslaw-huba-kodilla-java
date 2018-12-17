@@ -5,8 +5,9 @@ public class Application {
     public static void main(String[] args) {
 
         OrderRequestRetriever OrderRequestRetriever = new OrderRequestRetriever();
-        OrderRequest orderRequest = OrderRequestRetriever.request();
+        OrderRequest orderRequest = OrderRequestRetriever.orderRetriever();
 
-
+        OrderProcessor orderProcessor = new OrderProcessor(new InformationServiceElectronicMail(), new PaymentServceInternetBanking(), new WarehouseServiceWarszawa());
+        orderProcessor.process(orderRequest);
     }
 }
