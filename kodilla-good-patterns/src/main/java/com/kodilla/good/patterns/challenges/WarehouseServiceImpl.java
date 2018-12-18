@@ -2,7 +2,7 @@ package com.kodilla.good.patterns.challenges;
 
 import com.kodilla.good.patterns.challenges.basket.Basket;
 
-public class WarehouseServiceWarszawa implements WarehouseService {
+public class WarehouseServiceImpl implements WarehouseService {
 
     @Override
     public void sendToUser(User user, Basket basket) {

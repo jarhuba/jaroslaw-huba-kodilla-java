@@ -7,7 +7,7 @@ public class Application {
         OrderRequestRetriever OrderRequestRetriever = new OrderRequestRetriever();
         OrderRequest orderRequest = OrderRequestRetriever.orderRetriever();
 
-        OrderProcessor orderProcessor = new OrderProcessor(new InformationServiceElectronicMail(), new PaymentServceInternetBanking(), new WarehouseServiceWarszawa());
+        OrderProcessor orderProcessor = new OrderProcessor(new InformationServiceElectronicMail(), new PaymentServceInternetBanking(), new ProductOrderService(), new WarehouseServiceImpl());
         orderProcessor.process(orderRequest);
     }
 }

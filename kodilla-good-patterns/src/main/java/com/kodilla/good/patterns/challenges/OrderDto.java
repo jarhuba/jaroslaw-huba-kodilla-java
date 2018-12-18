@@ -1,12 +1,11 @@
 package com.kodilla.good.patterns.challenges;
 
-import com.kodilla.good.patterns.challenges.basket.Basket;
-
 public class OrderDto {
     public OrderRequest orderRequest;
     public boolean isPayed;
+    public boolean ordered;
 
-    public OrderDto(OrderRequest orderRequest, boolean isPayed) {
+    public OrderDto(OrderRequest orderRequest, boolean isPayed, boolean ordered) {
         this.orderRequest = orderRequest;
         this.isPayed = isPayed;
     }
@@ -17,5 +16,9 @@ public class OrderDto {
 
     public boolean isPayed() {
         return isPayed;
+    }
+
+    public boolean isOrdered() {
+        return ordered;
     }
 }
