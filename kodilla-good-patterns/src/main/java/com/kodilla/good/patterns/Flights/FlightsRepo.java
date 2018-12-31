@@ -1,0 +1,31 @@
+package com.kodilla.good.patterns.Flights;
+
+import java.util.HashSet;
+
+public class FlightsRepo {
+
+    public HashSet<Flight> retrieveFlightSet() {
+
+        HashSet<Flight> flights = new HashSet<>();
+        flights.add(new Flight(Airport.WAW, Airport.GDN));
+        flights.add(new Flight(Airport.WAW, Airport.KRK));
+        flights.add(new Flight(Airport.WAW, Airport.WRO));
+
+        flights.add(new Flight(Airport.WRO, Airport.WAW));
+        flights.add(new Flight(Airport.WRO, Airport.KRK));
+        flights.add(new Flight(Airport.WRO, Airport.KAT));
+        flights.add(new Flight(Airport.WRO, Airport.GDN));
+
+        flights.add(new Flight(Airport.GDN, Airport.WAW));
+        flights.add(new Flight(Airport.GDN, Airport.KRK));
+        flights.add(new Flight(Airport.GDN, Airport.KAT));
+
+        flights.add(new Flight(Airport.KRK, Airport.WAW));
+        flights.add(new Flight(Airport.KRK, Airport.GDN));
+
+        flights.add(new Flight(Airport.KAT, Airport.GDN));
+        flights.add(new Flight(Airport.KAT, Airport.WAW));
+
+        return flights;
+    }
+}
