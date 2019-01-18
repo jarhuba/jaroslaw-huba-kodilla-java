@@ -13,17 +13,28 @@ public class Board {
     }
 
     public void addTaskToDoList(String task) {
-        toDoList.getTasks().add(task);
+        toDoList.addTask(task);
     }
 
     public void addTaskInProgressList(String task) {
-        inProgressList.getTasks().add(task);
+        inProgressList.addTask(task);
     }
 
     public void addTaskDoneList(String task) {
-        doneList.getTasks().add(task);
+        doneList.addTask(task);
     }
 
+    public void removeTaskToDoList(String task) {
+        toDoList.removeTask(task);
+    }
+
+    public void removeTaskInProgressList(String task) {
+        inProgressList.removeTask(task);
+    }
+
+    public void removeTaskDoneList(String task) {
+        doneList.removeTask(task);
+    }
 
     public TaskList getToDoList() {
         return toDoList;
