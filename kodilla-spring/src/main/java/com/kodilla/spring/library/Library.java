@@ -15,7 +15,6 @@ public class Library {
     }
 
     public Library() {
-        // do nothing
     }
 
     public void saveToDb() {
