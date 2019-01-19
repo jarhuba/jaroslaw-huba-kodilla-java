@@ -3,7 +3,7 @@ package com.kodilla.good.patterns.Food2Door;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public abstract class Producer {
+public class Producer {
 
     String producerName;
 
@@ -22,7 +22,8 @@ public abstract class Producer {
         return OrderService.processOrderForSupplier(productsList);
     }
 
-    public abstract void specificProcess();
+    public void specificProcess() {
+    };
 
     public String getProducerName() {
         return producerName;
