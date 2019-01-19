@@ -65,7 +65,7 @@ public class BoardTestSuite {
     }
 
     @Test
-    public void testTask() {
+    public void testGetTasksList() {
         //Given
         ApplicationContext context = new AnnotationConfigApplicationContext(BoardConfig.class);
         TaskList taskList = context.getBean(TaskList.class);
