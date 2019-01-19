@@ -2,47 +2,46 @@ package com.kodilla.good.patterns.Flights;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class FlightSearch {
 
-    HashSet<Flight> flightDataBase;
+    private HashSet<Flight> flightDataBase;
 
     public FlightSearch(HashSet<Flight> flightDataBase) {
         this.flightDataBase = flightDataBase;
     }
 
-    public ArrayList<String> findDestinationsFrom(Airport airport) {
-        ArrayList<String> foundFlights;
+    public List<String> findDestinationsFrom(Airport airport) {
 
-        foundFlights = this.flightDataBase.stream()
+        List<String> foundFlights = flightDataBase.stream()
                 .filter(f -> f.getAirportFrom().equals(airport))
                 .map(f -> f.getAirportTo().getName())
                 .collect(Collectors.toCollection(ArrayList::new));
         return foundFlights;
     }
 
-    public ArrayList<String> findArrivalsTo(Airport airport) {
-        ArrayList<String> foundFlights;
+    public List<String> findArrivalsTo(Airport airport) {
 
-        foundFlights = this.flightDataBase.stream()
+        List<String> foundFlights = flightDataBase.stream()
                 .filter(f -> f.getAirportTo().equals(airport))
                 .map(f -> f.getAirportFrom().getName())
                 .collect(Collectors.toCollection(ArrayList::new));
         return foundFlights;
     }
 
-    public ArrayList<String> findIndirectFlightsFromTo(Airport airportSource, Airport airportDestination) {
-        ArrayList<String> foundFlights = new ArrayList<>();
-        ArrayList<Airport> airportsToDestination;
+    public List<String> findIndirectFlightsFromTo(Airport airportSource, Airport airportDestination) {
 
-        airportsToDestination = this.flightDataBase.stream()
+        List<Airport> airportsToDestination = flightDataBase.stream()
                 .filter(f -> f.getAirportTo().getName().equals(airportDestination.getName()))
                 .map(f -> f.getAirportFrom())
                 .collect(Collectors.toCollection(ArrayList::new));
 
+        List<String> foundFlights = new ArrayList<>();
+
         for (Airport airport : airportsToDestination) {
-            this.flightDataBase.stream()
+            flightDataBase.stream()
                     .filter(f -> f.getAirportFrom().equals(airportSource) && f.getAirportTo().equals(airport))
                     .map(f -> f.getAirportTo())
                     .forEach(f -> foundFlights.add(f.getName()));
