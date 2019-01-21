@@ -1,6 +1,5 @@
-package com.kodilla.good.patterns.Food2Door;
+package com.kodilla.good.patterns.food2Door;
 
-import java.util.List;
 import java.util.Map;
 
 public class OrderService {

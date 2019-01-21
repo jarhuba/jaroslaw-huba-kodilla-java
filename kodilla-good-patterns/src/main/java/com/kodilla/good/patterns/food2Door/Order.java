@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.Food2Door;
+package com.kodilla.good.patterns.food2Door;
 
 import java.util.HashMap;
 import java.util.Map;
