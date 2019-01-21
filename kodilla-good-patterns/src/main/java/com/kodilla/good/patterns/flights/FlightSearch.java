@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.Flights;
+package com.kodilla.good.patterns.flights;
 
 import java.util.ArrayList;
 import java.util.HashSet;

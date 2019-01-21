@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.Flights;
+package com.kodilla.good.patterns.flights;
 
 public enum Airport {
     WAW("Warszawa"), GDN("Gdańsk"), KRK("Kraków"), KAT("Katowice"), WRO("Wrocław");
