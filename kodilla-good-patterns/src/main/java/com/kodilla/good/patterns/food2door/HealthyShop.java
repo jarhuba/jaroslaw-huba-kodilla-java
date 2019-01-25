@@ -10,7 +10,7 @@ public class HealthyShop extends Producer {
 
     @Override
     public boolean process() {
-        System.out.println("Przetwarzasz zamówienie do " + NAME);
+        System.out.println("Przetwarzasz zamówienie do " + NAME + " i sprawdzasz dostępność.");
         return true;
     }
 }
