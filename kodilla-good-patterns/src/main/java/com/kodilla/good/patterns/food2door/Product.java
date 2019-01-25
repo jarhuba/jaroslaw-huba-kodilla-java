@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.food2Door;
+package com.kodilla.good.patterns.food2door;
 
 public class Product {
 
@@ -18,6 +18,10 @@ public class Product {
 
     public Producer getProducer() {
         return producer;
+    }
+
+    public String getProductName() {
+        return productName;
     }
 
     @Override

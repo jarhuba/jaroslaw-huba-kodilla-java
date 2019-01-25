@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.food2Door;
+package com.kodilla.good.patterns.food2door;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ public class Order {
         order.put(product, orderedQuantity);
     }
 
-    public Map getOrder() {
+    public Map getOrderList() {
         return order;
     }
 }
