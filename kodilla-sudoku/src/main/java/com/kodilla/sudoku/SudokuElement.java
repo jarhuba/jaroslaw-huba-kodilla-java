@@ -1,5 +1,6 @@
 package com.kodilla.sudoku;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,6 +15,7 @@ public class SudokuElement {
     }
 
     public void setValue(int value) {
+        possibleValues = new ArrayList<>();
         this.value = value;
     }
 
@@ -21,8 +23,8 @@ public class SudokuElement {
         return possibleValues;
     }
 
-    public void setPossibleValues(List<Integer> possibleValues) {
-        this.possibleValues = possibleValues;
+    public void removePossibleValue(int value) {
+        possibleValues.remove(new Integer(value));
     }
 
     @Override
