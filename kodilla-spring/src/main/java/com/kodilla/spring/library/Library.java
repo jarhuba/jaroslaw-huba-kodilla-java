@@ -1,5 +1,7 @@
 package com.kodilla.spring.library;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,3 +27,4 @@ public class Library {
         libraryDbController.loadData();
     }
 }
+

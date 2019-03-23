@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 
 @RunWith(SpringRunner.class)
@@ -31,11 +32,11 @@ public class TaskDaoTestSuite {
 
         //Then
         int id = task.getId();
-        Task readTask = taskDao.findOne(id);
-        Assert.assertEquals(id, readTask.getId());
+        Optional<Task> readTask = taskDao.findById(id);
+        Assert.assertTrue(readTask.isPresent());
 
         //CleanUp
-        taskDao.delete(id);
+        taskDao.deleteById(id);
     }
 
     @Test
@@ -53,7 +54,7 @@ public class TaskDaoTestSuite {
 
         //CleanUp
         int id = readTasks.get(0).getId();
-        taskDao.delete(id);
+        taskDao.deleteById(id);
     }
 
     @Test
@@ -70,6 +71,6 @@ public class TaskDaoTestSuite {
         Assert.assertNotEquals(0, id);
 
         //CleanUp
-        taskDao.delete(id);
+        taskDao.deleteById(id);
     }
 }

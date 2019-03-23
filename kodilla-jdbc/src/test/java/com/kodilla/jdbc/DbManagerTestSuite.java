@@ -56,7 +56,7 @@ public class DbManagerTestSuite {
         DbManager dbManager = DbManager.getInstance();
 
         //When
-        String sqlQuery = "select U.FIRSTNAME, U.LASTNAME from POSTS P join USERS U on P.USER_ID = U.ID group by U.ID having count(*) > 1;";
+        String sqlQuery = "select U.FIRSTNAME, U.LASTNAME from POSTS P join USERS U on P.USER_ID = U.ID group by U.ID having count(*) >1;";
         Statement statement = dbManager.getConnection().createStatement();
         ResultSet rs = statement.executeQuery(sqlQuery);
 
@@ -68,6 +68,6 @@ public class DbManagerTestSuite {
         }
         rs.close();
         statement.close();
-        Assert.assertEquals(counter, 1);
+        Assert.assertEquals(counter, 2);
     }
 }

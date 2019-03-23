@@ -9,7 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.transaction.Transactional;
 import java.util.List;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -58,25 +60,26 @@ public class CompanyDaoTestSuite {
 
         //CleanUp
         try {
-            companyDao.delete(softwareMachineId);
-            companyDao.delete(dataMaestersId);
-            companyDao.delete(greyMatterId);
+            companyDao.deleteById(softwareMachineId);
+            companyDao.deleteById(dataMaestersId);
+            companyDao.deleteById(greyMatterId);
         } catch (Exception e) {
             //do nothing
         }
     }
 
     @Test
+    @Transactional
     public void testNamedQueries() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
         Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
-
+//zapisać obiekty
         Company softwareMachine = new Company("Software Machine");
         Company dataMaesters = new Company("Data Maesters");
         Company greyMatter = new Company("Grey Matter");
-
+//zapisac
         softwareMachine.getEmployees().add(johnSmith);
         dataMaesters.getEmployees().add(stephanieClarckson);
         dataMaesters.getEmployees().add(lindaKovalsky);
@@ -101,15 +104,17 @@ public class CompanyDaoTestSuite {
         List<Employee> lastname = employeeDao.findEmployeeWithLastname("Smith");
 
         //Then
-        Assert.assertEquals(1, threeLetters.size());
-        Assert.assertEquals(1, lastname.size());
+        Assert.assertNotEquals(0, softwareMachineId);
+        Assert.assertNotEquals(0, dataMaestersId);
+        Assert.assertNotEquals(0, greyMatterId);
 
         //CleanUp
-        companyDao.delete(softwareMachineId);
-        companyDao.delete(dataMaestersId);
-        companyDao.delete(greyMatterId);
-        companyDao.deleteAll();
-        employeeDao.deleteAll();
-
+        try {
+            companyDao.deleteById(softwareMachineId);
+            companyDao.deleteById(dataMaestersId);
+            companyDao.deleteById(greyMatterId);
+        } catch (Exception e) {
+            //do nothing
+        }
     }
 }
