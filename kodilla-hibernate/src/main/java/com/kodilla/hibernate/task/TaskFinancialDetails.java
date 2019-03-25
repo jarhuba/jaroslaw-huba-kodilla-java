@@ -30,7 +30,7 @@ public class TaskFinancialDetails {
         return id;
     }
 
-    @Column (name = "PRICE")
+    @Column(name = "PRICE")
     public BigDecimal getPrice() {
         return price;
     }

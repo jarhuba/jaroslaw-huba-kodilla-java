@@ -25,7 +25,7 @@ public class ExtendedGame extends Game {
         3 Spock kruszy          1 kamień.
         */
 
-        int tab[][] = {
+        int[][] tab = {
                 {0, 1, 2, 1, 2},
                 {2, 0, 1, 2, 1},
                 {1, 2, 0, 2, 1},

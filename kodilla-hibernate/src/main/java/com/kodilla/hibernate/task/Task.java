@@ -38,7 +38,6 @@ public class Task {
     private TaskList taskList;
 
     public Task() {
-
     }
 
     public Task(String description, int duration) {

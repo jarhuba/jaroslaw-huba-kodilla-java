@@ -26,10 +26,10 @@ public class TaskFinancialDetailsDaoTestSuite {
         int id = taskFinancialDetails.getId();
 
         //When
-       List<TaskFinancialDetails> resultList = taskFinancialDetailsDao.findByPaid(false);
+        List<TaskFinancialDetails> resultList = taskFinancialDetailsDao.findByPaid(false);
 
         //Then
-       Assert.assertEquals(1, resultList.size());
+        Assert.assertEquals(1, resultList.size());
 
         //CleanUp
         taskFinancialDetailsDao.deleteById(id);

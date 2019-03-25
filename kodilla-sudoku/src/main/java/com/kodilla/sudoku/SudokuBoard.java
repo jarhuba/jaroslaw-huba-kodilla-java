@@ -32,7 +32,7 @@ public class SudokuBoard extends Prototype {
     @Override
     public String toString() {
         String boardString = sudokuBoardList.stream()
-                .map(n -> n.toString())
+                .map(SudokuRow::toString)
                 .collect(Collectors.joining("\n", "___________________\n",
                         "\n¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯"));
         return boardString;

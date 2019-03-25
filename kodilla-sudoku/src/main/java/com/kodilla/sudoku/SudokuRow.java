@@ -21,7 +21,7 @@ public class SudokuRow {
     @Override
     public String toString() {
         String rawRowString = sudokuRowList.stream()
-                .map(n -> n.toString())
+                .map(SudokuElement::toString)
                 .collect(Collectors.joining("-", "|", "|"));
         return rawRowString;
     }
