@@ -39,6 +39,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-patterns2/kodilla-patterns2.iml" filepath="$PROJECT_DIR$/kodilla-patterns2/kodilla-patterns2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2.test.iml" />
     </modules>
   </component>
 </project>
