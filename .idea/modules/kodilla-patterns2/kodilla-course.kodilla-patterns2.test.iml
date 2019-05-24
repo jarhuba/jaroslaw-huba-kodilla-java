@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="kodilla-patterns2:test" external.linked.project.path="$MODULE_DIR$/../../kodilla-patterns2" external.root.project.path="$MODULE_DIR$/../../kodilla-patterns2" external.system.id="GRADLE" external.system.module.group="com.kodilla" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":kodilla-patterns2:test" external.linked.project.path="$MODULE_DIR$/../../../kodilla-patterns2" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.kodilla" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../kodilla-patterns2/out/test/classes" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output-test url="file://$MODULE_DIR$/../../../kodilla-patterns2/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../kodilla-patterns2/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../kodilla-patterns2/src/test/java" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/../../../kodilla-patterns2/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../kodilla-patterns2/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../kodilla-patterns2/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="kodilla-patterns2.main" />
+    <orderEntry type="module" module-name="kodilla-course.kodilla-patterns2.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE" level="project" />
@@ -52,5 +53,5 @@
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="kodilla-patterns2.main" />
+  <component name="TestModuleProperties" production-module="kodilla-course.kodilla-patterns2.main" />
 </module>
