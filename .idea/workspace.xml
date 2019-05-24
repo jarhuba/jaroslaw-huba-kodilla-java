@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002b80af-574b-4bd9-93f2-e07212f74813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -153,14 +172,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -224,13 +290,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-spring-web/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-jdbc/build.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/kodilla-spring-web/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" />
       </list>
     </option>
@@ -249,10 +315,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="585" />
-    <option name="y" value="15" />
-    <option name="width" value="1343" />
-    <option name="height" value="1047" />
+    <option name="x" value="-1920" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,17 +333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kodilla-course" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kodilla-course" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -290,11 +344,81 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="manytomany" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kodilla-course" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kodilla-course" type="eaaa3913:PackageViewModuleGroupNode" />
             </path>
           </expand>
           <select />
@@ -314,11 +438,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553721724138" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/kodilla-library" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28667226" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -357,7 +481,7 @@
     </option>
     <option name="contentProportion" value="0.23160173" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.KodillaHibernateApplication (1)">
     <configuration name="KodillaJDBCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.KodillaJDBCApplication" />
       <module name="kodilla-course.kodilla-jdbc.main" />
@@ -416,8 +540,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="com.kodilla-kodilla-hibernate_main" />
+    <configuration name="KodillaHibernateApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-hibernate.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kodilla.hibernate.*" />
@@ -425,7 +549,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.hibernate.KodillaHibernateApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,12 +571,14 @@
       <item itemvalue="Application.KodillaJDBCApplication" />
       <item itemvalue="JUnit.CompanyDaoTestSuite" />
       <item itemvalue="JUnit.DbManagerTestSuite" />
+      <item itemvalue="JUnit.KodillaHibernateApplicationTests" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="JUnit.KodillaHibernateApplicationTests" />
+      <item itemvalue="Spring Boot.KodillaHibernateApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.KodillaHibernateApplication (1)" />
         <item itemvalue="JUnit.KodillaHibernateApplicationTests" />
         <item itemvalue="JUnit.DbManagerTestSuite" />
         <item itemvalue="Application.KodillaJDBCApplication" />
@@ -545,6 +670,8 @@
       <workItem from="1558690971978" duration="290000" />
       <workItem from="1558691302295" duration="914000" />
       <workItem from="1558692249746" duration="7950000" />
+      <workItem from="1558710901309" duration="1355000" />
+      <workItem from="1558712719270" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="Rework of all project. New libraries etc. Some configuration is still needed, but generally all modules and tests works.">
       <created>1553379182847</created>
@@ -645,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158148000" />
+    <option name="totallyTimeSpent" value="161912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,9 +784,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.27985075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.28624734" />
       <window_info id="Structure" order="1" sideWeight="0.50323623" side_tool="true" weight="0.26545843" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -691,7 +818,6 @@
       <window_info anchor="bottom" id="Database Console" order="19" weight="0.3290461" />
       <window_info anchor="bottom" id="Inspection Results" order="20" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Floobits" order="21" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -704,6 +830,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
       <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,13 +902,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -874,9 +994,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/console.sql" />
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/taskList/dao/TaskListDaoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1023">
@@ -1008,27 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1050,9 +1147,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1091,33 +1186,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding>
-            <element signature="e#6974#6975#0" expanded="true" />
-            <element signature="e#6996#6997#0" expanded="true" />
-            <element signature="e#7031#7032#0" expanded="true" />
-            <element signature="e#7052#7053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java" />
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1130,11 +1200,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1181,7 +1288,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
