@@ -6,7 +6,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/../../../kodilla-spring-web/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../kodilla-spring-web/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../kodilla-spring-web/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../kodilla-spring-web/src/main/java" isTestSource="false" />
