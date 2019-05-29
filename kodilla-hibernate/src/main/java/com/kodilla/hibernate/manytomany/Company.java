@@ -10,6 +10,10 @@ import java.util.List;
         query = "SELECT * FROM companies WHERE SUBSTRING(company_name, 1, 3) = :THREELETTERS",
         resultClass = Company.class
 )
+@NamedQuery(
+        name = "Company.findCompanyNameLike",
+        query = "FROM Company WHERE COMPANY_NAME LIKE CONCAT('%', :PHRASE, '%')"
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
