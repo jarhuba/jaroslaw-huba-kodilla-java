@@ -6,7 +6,7 @@ public abstract class AbstractTaxiOrderDecorator implements TaxiOrder {
 
     private final TaxiOrder taxiOrder;
 
-    public AbstractTaxiOrderDecorator(TaxiOrder taxiOrder) {
+    protected AbstractTaxiOrderDecorator(TaxiOrder taxiOrder) {
         this.taxiOrder = taxiOrder;
     }
 
