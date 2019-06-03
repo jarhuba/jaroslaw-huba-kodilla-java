@@ -1,95 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="002b80af-574b-4bd9-93f2-e07212f74813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-course.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-course.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-course.kodilla-good-patterns.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-course.kodilla-good-patterns.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-course.kodilla-good-patterns.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-course.kodilla-good-patterns.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-course.kodilla-jdbc.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-course.kodilla-jdbc.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-course.kodilla-jdbc.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc/kodilla-course.kodilla-jdbc.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-course.kodilla-patterns.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-course.kodilla-patterns.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-course.kodilla-patterns.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-course.kodilla-patterns.test.iml" afterDir="false" />
+    <list default="true" id="002b80af-574b-4bd9-93f2-e07212f74813" name="Default Changelist" comment="homework 28.2 Zadanie: Dekorujemy pizzę">
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-patterns2/kodilla-course.kodilla-patterns2.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-course.kodilla-rps.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-course.kodilla-rps.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-course.kodilla-rps.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-rps/kodilla-course.kodilla-rps.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-course.kodilla-stream.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.kodilla-sudoku.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.kodilla-sudoku.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.kodilla-sudoku.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.kodilla-sudoku.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-course.kodilla-testing.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-exception/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-exception/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-good-patterns/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-good-patterns/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-jdbc/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-jdbc/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-rps/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-rps/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-stream/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-stream/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-sudoku/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-sudoku/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-testing/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-testing/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-exception/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-good-patterns/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-jdbc/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-rps/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-intro/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-stream/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-sudoku/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-testing/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hibernate/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hibernate/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hibernate/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-web/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-web/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-spring-web/out/" />
-    <ignored path="$PROJECT_DIR$/test/.gradle/" />
-    <ignored path="$PROJECT_DIR$/test/build/" />
-    <ignored path="$PROJECT_DIR$/test/out/" />
-    <ignored path="$PROJECT_DIR$/course/.gradle/" />
-    <ignored path="$PROJECT_DIR$/course/build/" />
-    <ignored path="$PROJECT_DIR$/course/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hib/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hib/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-hib/out/" />
-    <ignored path="$PROJECT_DIR$/demo/.gradle/" />
-    <ignored path="$PROJECT_DIR$/demo/build/" />
-    <ignored path="$PROJECT_DIR$/demo/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns2/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns2/build/" />
-    <ignored path="$PROJECT_DIR$/kodilla-patterns2/out/" />
-    <ignored path="$PROJECT_DIR$/kodilla-/.gradle/" />
-    <ignored path="$PROJECT_DIR$/kodilla-/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +55,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -200,75 +123,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+            <state relative-caret-position="162">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,6 +171,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -292,40 +182,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/library/LibraryTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/portfolio/BoardTestSuite.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/console.sql" />
-        <option value="db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/schema/kodilla_course/table/users/index/ID" />
-        <option value="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/ExtendedGame.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/main/resources/application.properities" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/calculator/CalculatorTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-sudoku/settings.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hib/src/main/java/com/kodilla/hib/tasklist/dao/TaskListDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/settings.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" />
-        <option value="$PROJECT_DIR$/kodilla-rps/src/main/java/com/kodilla/rps/SimpleGame.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/settings.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Order.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java" />
-        <option value="$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-exception/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-patterns/build.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-rps/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-spring-intro/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-stream/build.gradle" />
@@ -341,8 +199,40 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/facade/TestSearchCompany.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchFacade.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/facade/SearchCompanyTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipCarDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderBasic.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/CheesDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/HamDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/MushroomsDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PaprikaDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PanThickDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/build.gradle" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" />
       </list>
     </option>
   </component>
@@ -359,11 +249,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1211" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -389,32 +278,6 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -455,18 +318,41 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,6 +385,9 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553721724138" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -506,7 +395,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28667226" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -541,74 +430,79 @@
     </option>
     <option name="contentProportion" value="0.23160173" />
   </component>
-  <component name="RunManager" selected="Spring Boot.KodillaPatterns2Application">
-    <configuration name="KodillaJDBCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.KodillaJDBCApplication" />
-      <module name="kodilla-course.kodilla-jdbc.main" />
+  <component name="RunManager" selected="JUnit.CalculatorTestSuite">
+    <configuration name="CalculatorTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.aop.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.aop.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.aop.calculator.CalculatorTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyDaoTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTestSuite.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-patterns2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2.aop.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.aop.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.aop.calculator.CalculatorTestSuite" />
+      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrderTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-patterns2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.pizza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.pizza" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchCompanyTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-course.kodilla-hibernate.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.*" />
+          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.facade" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.facade.SearchCompanyTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbManagerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-course.kodilla-jdbc.test" />
+    <configuration name="TaxiOrderTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-patterns2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2.decorator.taxiportal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.DbManagerTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2.decorator.taxiportal" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KodillaHibernateApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-course.kodilla-hibernate.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.KodillaHibernateApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-course.kodilla-hibernate.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.hibernate.KodillaHibernateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -628,21 +522,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KodillaJDBCApplication" />
-      <item itemvalue="JUnit.CompanyDaoTestSuite" />
-      <item itemvalue="JUnit.DbManagerTestSuite" />
-      <item itemvalue="JUnit.KodillaHibernateApplicationTests" />
+      <item itemvalue="JUnit.SearchCompanyTestSuite" />
+      <item itemvalue="JUnit.TaxiOrderTestSuite" />
+      <item itemvalue="JUnit.PizzaOrderTestSuite" />
+      <item itemvalue="JUnit.CalculatorTestSuite" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="Spring Boot.KodillaHibernateApplication" />
+      <item itemvalue="JUnit.CalculatorTestSuite.testFactorial" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KodillaHibernateApplication" />
-        <item itemvalue="JUnit.KodillaHibernateApplicationTests" />
-        <item itemvalue="JUnit.DbManagerTestSuite" />
-        <item itemvalue="Application.KodillaJDBCApplication" />
-        <item itemvalue="JUnit.CompanyDaoTestSuite" />
+        <item itemvalue="JUnit.CalculatorTestSuite" />
+        <item itemvalue="JUnit.CalculatorTestSuite.testFactorial" />
+        <item itemvalue="JUnit.PizzaOrderTestSuite" />
+        <item itemvalue="JUnit.TaxiOrderTestSuite" />
+        <item itemvalue="JUnit.SearchCompanyTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -733,7 +627,14 @@
       <workItem from="1558710901309" duration="1355000" />
       <workItem from="1558712719270" duration="2409000" />
       <workItem from="1559032847675" duration="2953000" />
-      <workItem from="1559110789346" duration="5002000" />
+      <workItem from="1559110789346" duration="19744000" />
+      <workItem from="1559132499268" duration="19000" />
+      <workItem from="1559279015159" duration="633000" />
+      <workItem from="1559279914423" duration="102000" />
+      <workItem from="1559281308556" duration="376000" />
+      <workItem from="1559281717589" duration="15014000" />
+      <workItem from="1559301085255" duration="3854000" />
+      <workItem from="1559537212853" duration="12471000" />
     </task>
     <task id="LOCAL-00001" summary="Rework of all project. New libraries etc. Some configuration is still needed, but generally all modules and tests works.">
       <created>1553379182847</created>
@@ -798,43 +699,78 @@
       <option name="project" value="LOCAL" />
       <updated>1558700420366</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixes for kodilla-hibernate">
+      <created>1559117585564</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559117585564</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Homework 28.1 Budujemy fasadę do odczytu i zapisu list zadań">
+      <created>1559132098945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132098945</updated>
+    </task>
+    <task id="LOCAL-00012" summary="submodule 28.2 Wzorzec Dekorator">
+      <created>1559296135062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559296135062</updated>
+    </task>
+    <task id="LOCAL-00013" summary="homework 28.2 Zadanie: Dekorujemy pizzę">
+      <created>1559302074317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559302074318</updated>
+    </task>
+    <task id="LOCAL-00014" summary="submodule 28.3 Programowanie aspektowe w Spring Boot part 1">
+      <created>1559305304459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559305304459</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvoiceDaoTestSuite - 2019.05.24 at 10h 29m 56s.xml">
-      <configuration name="InvoiceDaoTestSuite" configurationId="JUnit" />
+    <history-entry file="PizzaOrderTestSuite - 2019.05.31 at 13h 26m 51s.xml">
+      <configuration name="PizzaOrderTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="kodilla-course_kodilla-hibernate_[check] - 2019.05.24 at 11h 58m 45s.xml">
-      <configuration name="kodilla-course:kodilla-hibernate [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="CalculatorTestSuite - 2019.05.31 at 14h 13m 03s.xml">
+      <configuration name="CalculatorTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="kodilla-course_kodilla-hibernate_[check] - 2019.05.24 at 12h 01m 09s.xml">
-      <configuration name="kodilla-course:kodilla-hibernate [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="CalculatorTestSuite - 2019.06.03 at 07h 07m 58s.xml">
+      <configuration name="CalculatorTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="kodilla-course_kodilla-hibernate_[check] - 2019.05.24 at 12h 07m 54s.xml">
-      <configuration name="kodilla-course:kodilla-hibernate [check]" configurationId="GradleRunConfiguration" />
+    <history-entry file="CalculatorTestSuite_testFactorial - 2019.06.03 at 10h 47m 31s.xml">
+      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompanyDaoTestSuite - 2019.05.24 at 12h 56m 05s.xml">
-      <configuration name="CompanyDaoTestSuite" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite_testFactorial - 2019.06.03 at 10h 48m 02s.xml">
+      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompanyDaoTestSuite - 2019.05.24 at 12h 56m 59s.xml">
-      <configuration name="CompanyDaoTestSuite" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite_testFactorial - 2019.06.03 at 10h 48m 16s.xml">
+      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbManagerTestSuite - 2019.05.24 at 12h 57m 29s.xml">
-      <configuration name="DbManagerTestSuite" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite_testFactorial - 2019.06.03 at 10h 48m 38s.xml">
+      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KodillaHibernateApplicationTests - 2019.05.24 at 14h 07m 52s.xml">
-      <configuration name="KodillaHibernateApplicationTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite - 2019.06.03 at 11h 29m 09s.xml">
+      <configuration name="CalculatorTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KodillaHibernateApplicationTests - 2019.05.24 at 14h 09m 36s.xml">
-      <configuration name="KodillaHibernateApplicationTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite - 2019.06.03 at 11h 48m 12s.xml">
+      <configuration name="CalculatorTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KodillaHibernateApplicationTests - 2019.05.24 at 14h 12m 23s.xml">
-      <configuration name="KodillaHibernateApplicationTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTestSuite - 2019.06.03 at 12h 10m 50s.xml">
+      <configuration name="CalculatorTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169884000" />
+    <option name="totallyTimeSpent" value="217095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,10 +782,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1211" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.30863538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.24587315" />
       <window_info id="Structure" order="1" sideWeight="0.50323623" side_tool="true" weight="0.26545843" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -861,22 +797,22 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.32502708" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.32371795" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.32799146" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.52558637" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49626866" weight="0.2426869" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49626866" weight="0.24252136" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48933902" side_tool="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3272921" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4936034" weight="0.35969663" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.510661" visible="true" weight="0.33044422" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.510661" weight="0.33044422" />
       <window_info anchor="bottom" id="Gradle View" order="16" weight="0.3290461" />
-      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.3290461" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32827735" />
       <window_info anchor="bottom" id="Dependency Viewer" order="18" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Console" order="19" weight="0.3290461" />
       <window_info anchor="bottom" id="Inspection Results" order="20" visible="true" weight="0.3290461" />
@@ -894,6 +830,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
       <window_info anchor="right" id="Module Dependencies" order="11" weight="0.32995737" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Ant" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,20 +842,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -946,7 +870,11 @@
     <MESSAGE value="submodule 28.1" />
     <MESSAGE value="submodule 28.1 + files for project backup" />
     <MESSAGE value="fixes for kodilla-hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes for kodilla-hibernate" />
+    <MESSAGE value="Homework 28.1 Budujemy fasadę do odczytu i zapisu list zadań" />
+    <MESSAGE value="submodule 28.2 Wzorzec Dekorator" />
+    <MESSAGE value="homework 28.2 Zadanie: Dekorujemy pizzę" />
+    <MESSAGE value="submodule 28.3 Programowanie aspektowe w Spring Boot part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodule 28.3 Programowanie aspektowe w Spring Boot part 1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -958,181 +886,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.15/88e2c0d4108b8660ae1f138d70b4be6346eb7665/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/Driver.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.15/88e2c0d4108b8660ae1f138d70b4be6346eb7665/mysql-connector-java-8.0.15-sources.jar!/com/mysql/jdbc/Driver.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/console.sql" />
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/taskList/dao/TaskListDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.4.RELEASE/2edd9ce8f7fe3dafb83eef9248b882abc6fe6192/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.6.RELEASE/647293fbac4e4a0805d5440151ebb79cd0bf426b/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-intro/src/test/java/com/kodilla/spring/intro/shape/DrawerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3/storage_v2/_src_/schema/kodilla_course.4myULg.meta" />
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/db25fa9c-c56c-419c-bcbd-fdcea31d0fb3.xml" />
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-sudoku/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-stream/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-web/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-intro/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-rps/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-exception/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-testing/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring-web/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/KodillaJDBCApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java" />
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java">
@@ -1149,13 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1185,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/KodillaPatterns2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1206,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1224,6 +953,55 @@
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1255,42 +1033,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/Authenticator.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderProcessingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/ItemDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.8.RELEASE/b1c7c71e7e3eea24a59cfdbc974d0ed555d02cae/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="103" column="34" lean-forward="true" selection-start-line="103" selection-start-column="34" selection-end-line="104" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="102" column="88" selection-start-line="102" selection-start-column="85" selection-end-line="102" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/facade/SearchCompanyTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/SearchFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="111" column="30" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="30" />
+          <folding>
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="e#3110#3111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipCarDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PaprikaDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PanThickDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/MushroomsDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/HamDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/CheesDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

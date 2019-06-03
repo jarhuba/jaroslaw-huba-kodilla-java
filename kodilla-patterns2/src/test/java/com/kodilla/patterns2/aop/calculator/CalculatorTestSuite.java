@@ -9,8 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
+import java.math.BigDecimal;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -29,6 +30,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing add method");
         assertEquals(25, result, 0);
     }
+
     @Test
     public void testSub() {
         //Given
@@ -38,6 +40,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing sub method");
         assertEquals(-5, result, 0);
     }
+
     @Test
     public void testMul() {
         //Given
@@ -47,6 +50,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing mul method");
         assertEquals(150, result, 0);
     }
+
     @Test
     public void testDiv() {
         //Given
@@ -57,4 +61,14 @@ public class CalculatorTestSuite {
         assertEquals(3, result, 0);
     }
 
+    @Test
+    public void testFactorial() {
+        //Given
+        //When
+        BigDecimal result = calculator.factorial(new BigDecimal("1000"));
+        //Then
+        LOGGER.info("Testing factorial method");
+        System.out.println(result);
+        assertTrue(BigDecimal.ONE.compareTo(result) < 0);
+    }
 }
